@@ -1,0 +1,23 @@
+---
+import BlogGrid from '../components/BlogGrid';
+import '../styles/globals.css';
+import { getAllPosts, getAllTags } from '../lib/posts';
+import type { BlogPost } from '../lib/posts';
+
+// Load posts at build time
+const blogPosts: BlogPost[] = getAllPosts();
+const allTags: string[] = getAllTags();
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Shamir</title>
+	</head>
+	<body>
+		<BlogGrid client:load blogPosts={blogPosts} allTags={allTags} />
+	</body>
+</html>
