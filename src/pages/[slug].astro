@@ -1,16 +1,25 @@
 ---
 import { getCollection } from 'astro:content';
 import '../styles/globals.css';
-import { HomePage } from '../components/HomePage';
+import { ArticlePage } from '../components/ArticlePage';
 
-const articles = (await getCollection('articles')).map(entry => ({
-  title: entry.data.title,
-  image: entry.data.image,
-  tags: Array.isArray(entry.data.tags) ? entry.data.tags : (entry.data.tags ? [entry.data.tags] : []),
-  date: entry.data.date,
-  body: entry.body,
-  slug: entry.slug,
-}));
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: {
+      article: {
+        title: article.data.title,
+        image: article.data.image,
+        tags: Array.isArray(article.data.tags) ? article.data.tags : (article.data.tags ? [article.data.tags] : []),
+        date: article.data.date,
+        body: article.body,
+      },
+    },
+  }));
+}
+
+const { article } = Astro.props;
 ---
 
 <html lang="en" class="">
@@ -22,7 +31,8 @@ const articles = (await getCollection('articles')).map(entry => ({
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <title>Articles</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <title>{article.title}</title>
     <script is:inline>
       // Initialize theme from localStorage or system preference
       (function() {
@@ -51,8 +61,7 @@ const articles = (await getCollection('articles')).map(entry => ({
       })();
     </script>
   </head>
-  <!-- <body class="bg-lightbg dark:bg-darkbg text-gray-900 dark:text-gray-200 transition-colors"> -->
-  <body class="dark bg-darkbg transition-colors">
-    <HomePage client:load articles={articles} />
+  <body class="bg-lightbg dark:bg-darkbg text-gray-900 dark:text-gray-200 transition-colors">
+    <ArticlePage client:load article={article} />
   </body>
 </html>
