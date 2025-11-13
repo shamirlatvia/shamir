@@ -2,7 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Inter (Sans-serif) - Variable Font */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Italic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Playfair Display (Serif) */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 350;
+  }
 
   h1,
   h2,

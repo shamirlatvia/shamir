@@ -9,6 +9,31 @@ const { title } = Astro.props as Props;
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+<script is:inline>
+  // Initialize theme from localStorage or system preference
+  (function() {
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    }
+
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      applyTheme(savedTheme);
+    } else {
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(systemPrefersDark ? 'dark' : 'light');
+
+      // Listen for system theme changes
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme')) {
+          applyTheme(e.matches ? 'dark' : 'light');
+        }
+      });
+    }
+  })();
+  </script>
