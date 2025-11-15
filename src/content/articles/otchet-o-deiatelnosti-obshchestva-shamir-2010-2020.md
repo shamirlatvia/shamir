@@ -17,6 +17,6 @@ oldUrl: http://shamir.lv/2021/01/22/%d0%be%d1%82%d1%87%d1%91%d1%82-%d0%be-%d0%b4
 
 Подготовка и печать материалов осуществлены при финансовой поддержке Министерства Культуры Латвийской Республики и Земгальского центра НПО.
 
-[The report in English](http://shamir.lv/goto/https://cutt.ly/ajJlZRg)  
- [Atskaite latviešu valodā](http://shamir.lv/goto/https://cutt.ly/7jJlGJm)  
- [Отчёт на русском языке](http://shamir.lv/goto/https://drive.google.com/file/d/1i4WJJwf9zv7rUAPO72LKcJh2raV3e_9D/view?usp=sharing) 
+[The report in English](https://cutt.ly/ajJlZRg)  
+ [Atskaite latviešu valodā](https://cutt.ly/7jJlGJm)  
+ [Отчёт на русском языке](https://drive.google.com/file/d/1i4WJJwf9zv7rUAPO72LKcJh2raV3e_9D/view?usp=sharing) 

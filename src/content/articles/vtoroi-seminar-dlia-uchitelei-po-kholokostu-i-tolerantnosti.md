@@ -29,11 +29,11 @@ oldUrl: http://shamir.lv/2008/05/20/%d0%b2%d1%82%d0%be%d1%80%d0%be%d0%b9-%d1%81%
 
 ****Пресса о нас:****
 
-[**Учителям и библиотекарям расскажут о Холокосте.** Delfi.lv](http://shamir.lv/goto/http://rus.delfi.lv/archive/article.php?id=20989256&categoryID=57860&ndate=1211144400)  
- [**Par holokaustu pedagogiem un citiem interesentiem.** Liepajniekiem.lv](http://shamir.lv/goto/http://www.liepajniekiem.lv/lat/zinas/sabiedriba/2008/05/21/par-holokaustu-pedagogiem-un-citiem-interesentiem/)  
- [**Par holokaustu un diskriminācijas problēmām.** Kurzemes-vards.lv](http://shamir.lv/goto/http://www.kurzemes-vards.lv/?doc=46097)  
- [**Ebreji izglīto, lai atjaunotu iecietību.** Klaiks.lv](http://shamir.lv/goto/http://www.klaiks.lv/portals/liepaja/raksts.html?xml_id=2348)  
- [**О холокосте и проблемах дискриминации.** Liepajniekiem.lv](http://shamir.lv/goto/http://www.liepajniekiem.lv/rus/novosti/obsestvo/2008/05/18/o-holokoste-i-problemah-diskriminacii/)
+[**Учителям и библиотекарям расскажут о Холокосте.** Delfi.lv](http://rus.delfi.lv/archive/article.php?id=20989256&categoryID=57860&ndate=1211144400)  
+ [**Par holokaustu pedagogiem un citiem interesentiem.** Liepajniekiem.lv](http://www.liepajniekiem.lv/lat/zinas/sabiedriba/2008/05/21/par-holokaustu-pedagogiem-un-citiem-interesentiem/)  
+ [**Par holokaustu un diskriminācijas problēmām.** Kurzemes-vards.lv](http://www.kurzemes-vards.lv/?doc=46097)  
+ [**Ebreji izglīto, lai atjaunotu iecietību.** Klaiks.lv](http://www.klaiks.lv/portals/liepaja/raksts.html?xml_id=2348)  
+ [**О холокосте и проблемах дискриминации.** Liepajniekiem.lv](http://www.liepajniekiem.lv/rus/novosti/obsestvo/2008/05/18/o-holokoste-i-problemah-diskriminacii/)
 
 [![](http://shamir.lv/wp-content/uploads/2016/03/liep_poster_big-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/liep_poster_big.jpg)
 

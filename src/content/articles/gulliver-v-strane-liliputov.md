@@ -9,7 +9,7 @@ oldUrl: http://shamir.lv/2011/05/24/%d0%b3%d1%83%d0%bb%d0%bb%d0%b8%d0%b2%d0%b5%d
 
 Посольство Израиля в Латвии в сотрудничестве с обществом «Шамир» и Латвийским театром кукол представляет спектакль кукольного театра “The Train Theater”, Иерусалим, Израиль «Гулливер в стране лилипутов» 24 мая, 14:00 (рус), 18:00 (лат) в театре кукол, Рига, ул. Кр. Барона 16/18
 
-Билеты на [www.bilesuparadize.lv](http://shamir.lv/goto/http://www.bilesuparadize.lv/), в кассах театра. Коллективные заявки – [shamir@shamir.lv](mailto:Shamir@shamir.lv)
+Билеты на [www.bilesuparadize.lv](http://www.bilesuparadize.lv/), в кассах театра. Коллективные заявки – [shamir@shamir.lv](mailto:Shamir@shamir.lv)
 
 Продолжительность спектакля – 50 мин.
 

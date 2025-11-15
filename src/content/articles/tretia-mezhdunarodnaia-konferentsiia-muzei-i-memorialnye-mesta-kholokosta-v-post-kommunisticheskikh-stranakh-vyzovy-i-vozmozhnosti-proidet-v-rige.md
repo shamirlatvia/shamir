@@ -27,4 +27,4 @@ oldUrl: http://shamir.lv/2015/02/14/save-the-date-for-the-iii-international-conf
 
 Дополнительная информация и регистрация: project@shamir.lv , +371-67791784.
 
-До скорой встречи в Риге![![Conference](http://www.rgm.lv/wp-content/uploads/2014/02/Conference-300x198.jpg)](http://shamir.lv/goto/http://www.rgm.lv/wp-content/uploads/2014/02/Conference.jpg) 
+До скорой встречи в Риге![![Conference](http://www.rgm.lv/wp-content/uploads/2014/02/Conference-300x198.jpg)](http://www.rgm.lv/wp-content/uploads/2014/02/Conference.jpg) 

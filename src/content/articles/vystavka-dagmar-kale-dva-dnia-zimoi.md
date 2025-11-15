@@ -11,4 +11,4 @@ oldUrl: http://shamir.lv/2015/05/13/exhibition-of-dagmar-calais-in-riga-ghetto-m
 
 На счету Дагмар Калье (род. 1966, Бремен) многочисленные выставки в Германии, Лондоне, Риме, Венеции, Сиене, Тель-Авиве и Сардинии.
 
-[![IMG_1393 - Kopie](http://www.rgm.lv/wp-content/uploads/2015/06/IMG_1393-Kopie-200x300.jpg)](http://shamir.lv/goto/http://www.rgm.lv/wp-content/uploads/2015/06/IMG_1393-Kopie.jpg) 
+[![IMG_1393 - Kopie](http://www.rgm.lv/wp-content/uploads/2015/06/IMG_1393-Kopie-200x300.jpg)](http://www.rgm.lv/wp-content/uploads/2015/06/IMG_1393-Kopie.jpg) 

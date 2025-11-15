@@ -11,5 +11,5 @@ oldUrl: http://shamir.lv/2014/07/17/latvian-laimigu-jauno-5775-gadu-lielais-konc
 
 В программе еврейские литургические мелодии, оперные арии и народная музыка в сопровождении симфонического оркестра.
 
-Билеты в сети [www.bilesuserviss.lv](http://shamir.lv/goto/http://www.bilesuserviss.lv "Bilesuserviss")  
- Информация [project@shamir.lv](mailto:project@shamir.lv "mail") или [http://www.shamir.lv](http://shamir.lv/goto/http://www.shamir.lv/lv/item/230-_S_NOVYM_5775-m_GODOM_-_BOL_SHOY_KONTSERT_V_OPERE_25_avgusta_v_19_00.html "Concert") 
+Билеты в сети [www.bilesuserviss.lv](http://www.bilesuserviss.lv "Bilesuserviss")  
+ Информация [project@shamir.lv](mailto:project@shamir.lv "mail") или [http://www.shamir.lv](http://www.shamir.lv/lv/item/230-_S_NOVYM_5775-m_GODOM_-_BOL_SHOY_KONTSERT_V_OPERE_25_avgusta_v_19_00.html "Concert") 

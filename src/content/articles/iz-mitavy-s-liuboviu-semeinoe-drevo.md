@@ -9,7 +9,7 @@ oldUrl: http://shamir.lv/2013/09/12/%d0%b8%d0%b7-%d0%bc%d0%b8%d1%82%d0%b0%d0%b2%
 
 В рамках Фестиваля еврейской культуры «5772» в Риге в Латвийском Государственном историческом архиве, ул. Слокас 16, 12 сентября в 16:00 открывается выставка живущих в Москве и Гамбурге художников Романа Фаерштейна, Любови Зимоненко и Анны Зимоненко — выставка одновременно художественная и историческая. Это выставка-диалог. Диалог эпох, Диалог культур, Диалог пространств. Выставка продлится до 28 октября.
 
-[www.feierstein-simonenko.com](http://shamir.lv/goto/http://www.feierstein-simonenko.com/)
+[www.feierstein-simonenko.com](http://www.feierstein-simonenko.com/)
 
 [![](http://shamir.lv/wp-content/uploads/2016/03/Feierstein-Simonenko-A4-rueck-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/Feierstein-Simonenko-A4-rueck.jpg)
 

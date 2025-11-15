@@ -31,5 +31,5 @@ oldUrl: http://shamir.lv/2019/02/04/call-for-papers/
 
 Иностранным участникам конференции будет оплачено  проживание в гостинице (2 ночи) и питание. Просим информировать нас заранее о желании приехать в Ригу раньше или позже времени проведения конференции, в также проинформировать нас о необходимости предоставления кошерного питания.
 
-Для регистрации на конференции заполните заявку: [https://goo.gl/forms/l5AfD3ySJ8xxFKKw1](http://shamir.lv/goto/https://goo.gl/forms/l5AfD3ySJ8xxFKKw1)  
+Для регистрации на конференции заполните заявку: [https://goo.gl/forms/l5AfD3ySJ8xxFKKw1](https://goo.gl/forms/l5AfD3ySJ8xxFKKw1)  
  Эл. Адрес координаторов конференции: *[rigaforum2019@shamir.lv](mailto:rigaforum2019@shamir.lv)**rgm.lv, shamir.lv* 
