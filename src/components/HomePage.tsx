@@ -220,7 +220,7 @@ export function HomePage({ articles }: HomePageProps) {
                 </div>
               )}
               <div className="relative z-10 w-full h-full flex flex-col justify-end p-5">
-                <h2 className="font-bold text-darkfg [text-shadow:_0_2px_8px_rgb(0_0_0_/_0.6),_0_1px_4px_rgb(0_0_0_/_0.8)] text-xl mb-1 line-clamp-6 uppercase break-words">{article.title}</h2>
+                <h2 className="font-bold text-white/90 [text-shadow:_0_2px_8px_rgb(0_0_0_/_0.6),_0_1px_4px_rgb(0_0_0_/_0.8)] text-xl mb-1 line-clamp-6 uppercase break-words">{article.title}</h2>
                 <div className="mb-2 flex flex-wrap gap-1 text-darkfg [text-shadow:_0_1px_6px_rgb(0_0_0_/_0.6),_0_1px_3px_rgb(0_0_0_/_0.8)]">
                   {
                     (article.tags||[]).join(" · ")
