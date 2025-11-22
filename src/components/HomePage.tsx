@@ -79,7 +79,7 @@ export function HomePage({ articles }: HomePageProps) {
         </div>
       </div>
       
-      <div key="publications" className="mb-16 px-4">
+      <section key="publications" className="home-section">
           <header>
             <h2 className="mb-3">Публикации</h2>
           </header>
@@ -99,7 +99,7 @@ export function HomePage({ articles }: HomePageProps) {
             </div>
             <div className="max-w-xs text-xl leading-tight">которые можно<br/>приобрести в<br/><a href="https://shamirshop.lv" className="underline">нашем магазине</a></div>
           </div>
-      </div>
+      </section>
 
 
       {Array.from(sections.entries()).map(([key, section]) => {
