@@ -2,7 +2,7 @@
 id: "129"
 title: "Презентация проекта «Мосты Культуры» в Бремене"
 image: "http://shamir.lv/wp-content/uploads/2021/09/IMG-20210831-WA0009-1280x742.jpg"
-tags: ['Деятельность',]
+tags: ['Образование']
 date: 2021-09-02
 oldUrl: http://shamir.lv/2021/09/02/%d0%bf%d1%80%d0%b5%d0%b7%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d1%8f-%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b0-%d0%bc%d0%be%d1%81%d1%82%d1%8b-%d0%ba%d1%83%d0%bb%d1%8c%d1%82%d1%83%d1%80%d1%8b/
 ---

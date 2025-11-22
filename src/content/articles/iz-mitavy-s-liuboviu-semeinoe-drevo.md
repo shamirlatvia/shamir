@@ -2,7 +2,7 @@
 id: "72"
 title: "Из Митавы с любовью: семейное древо."
 image: "http://shamir.lv/wp-content/uploads/2016/03/Feierstein-Simonenko-Hamburg-Riga-04-1320x742.jpg"
-tags: ['Фестиваль еврейской культуры 5772',]
+tags: ['Фестивали']
 date: 2013-09-12
 oldUrl: http://shamir.lv/2013/09/12/%d0%b8%d0%b7-%d0%bc%d0%b8%d1%82%d0%b0%d0%b2%d1%8b-%d1%81-%d0%bb%d1%8e%d0%b1%d0%be%d0%b2%d1%8c%d1%8e-%d1%81%d0%b5%d0%bc%d0%b5%d0%b9%d0%bd%d0%be%d0%b5-%d0%b4%d1%80%d0%b5%d0%b2%d0%be/
 ---

@@ -2,7 +2,7 @@
 id: "94"
 title: "Выставка-вагон «Берлин-Рига. Билет в один конец»"
 image: "http://shamir.lv/wp-content/uploads/2016/05/qFfhgOfxogU-1280x720.jpg"
-tags: ['Выставки', 'Деятельность']
+tags: ['Выставки']
 date: 2016-04-17
 oldUrl: http://shamir.lv/2016/04/17/berlinriga/
 ---

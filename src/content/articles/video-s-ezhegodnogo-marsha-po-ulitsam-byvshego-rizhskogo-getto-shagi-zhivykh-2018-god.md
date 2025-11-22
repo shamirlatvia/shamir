@@ -2,7 +2,7 @@
 id: "82"
 title: "Видео с ежегодного марша по улицам бывшего Рижского Гетто — «Шаги живых», 2018 год"
 image: "http://shamir.lv/wp-content/uploads/2018/07/2018.07.04.DzGaj_124-1280x742.jpg"
-tags: ['Деятельность',]
+tags: ['Мероприятия']
 date: 2018-07-27
 oldUrl: http://shamir.lv/2018/07/27/%d0%b2%d0%b8%d0%b4%d0%b5%d0%be-%d1%81-%d0%b5%d0%b6%d0%b5%d0%b3%d0%be%d0%b4%d0%bd%d0%be%d0%b3%d0%be-%d0%bc%d0%b0%d1%80%d1%88%d0%b0-%d0%bf%d0%be-%d1%83%d0%bb%d0%b8%d1%86%d0%b0%d0%bc-%d0%b1%d1%8b%d0%b2/
 ---

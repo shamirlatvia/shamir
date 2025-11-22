@@ -2,7 +2,7 @@
 id: "40"
 title: "Рижский Форум 2017"
 image: "http://shamir.lv/wp-content/uploads/2017/10/Meet_198-1280x742.jpg"
-tags: ['Деятельность',]
+tags: ['Конференции']
 date: 2017-09-18
 oldUrl: http://shamir.lv/2017/09/18/%d1%80%d0%b8%d0%b6%d1%81%d0%ba%d0%b8%d0%b9-%d1%84%d0%be%d1%80%d1%83%d0%bc-2017-2/
 ---

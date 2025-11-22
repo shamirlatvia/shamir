@@ -2,7 +2,7 @@
 id: "104"
 title: "Концерт песен Марка Марьяновского — полное видео"
 image: "http://shamir.lv/wp-content/uploads/2016/03/82483627_4229746_TATYaNA__11-495x699.jpg"
-tags: ['Концерты', 'Община', 'Фестиваль еврейской культуры 5773']
+tags: ['Концерты']
 date: 2012-05-10
 oldUrl: http://shamir.lv/2012/05/10/%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d0%bf%d0%b5%d1%81%d0%b5%d0%bd-%d0%bc%d0%b0%d1%80%d0%ba%d0%b0-%d0%bc%d0%b0%d1%80%d1%8c%d1%8f%d0%bd%d0%be%d0%b2%d1%81%d0%ba%d0%be%d0%b3%d0%be-%d0%bf%d0%be/
 ---

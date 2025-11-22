@@ -2,7 +2,7 @@
 id: "29"
 title: "Открыты три новые экспозиции"
 image: "http://shamir.lv/wp-content/uploads/2016/05/410f9865-d72c-4331-bdfc-3b77741169c4-e1470134685858-500x191.jpg"
-tags: ['Выставки', 'Проекты']
+tags: ['Выставки']
 date: 2016-05-26
 oldUrl: http://shamir.lv/2016/05/26/%d0%be%d1%82%d0%ba%d1%80%d1%8b%d1%82%d1%8b-%d1%82%d1%80%d0%b8-%d0%bd%d0%be%d0%b2%d1%8b%d0%b5-%d1%8d%d0%ba%d1%81%d0%bf%d0%be%d0%b7%d0%b8%d1%86%d0%b8%d0%b8/
 ---

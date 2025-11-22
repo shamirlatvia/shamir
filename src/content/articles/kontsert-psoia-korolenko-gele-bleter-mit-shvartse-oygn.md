@@ -2,7 +2,7 @@
 id: "28"
 title: "Концерт Псоя Короленко Gele bleter mit shvartse oygn"
 image: "http://shamir.lv/wp-content/uploads/2016/03/riga-671x742.jpg"
-tags: ['Концерты', 'Община', 'Фестиваль еврейской культуры 5773']
+tags: ['Концерты']
 date: 2012-09-02
 oldUrl: http://shamir.lv/2012/09/02/%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d0%bf%d1%81%d0%be%d1%8f-%d0%ba%d0%be%d1%80%d0%be%d0%bb%d0%b5%d0%bd%d0%ba%d0%be-gele-bleter-mit-shvartse-oygn/
 ---

@@ -2,7 +2,7 @@
 id: "17"
 title: "Обновление экспозиций в музее Рижского Гетто и Холокоста в Латвии"
 image: "http://shamir.lv/wp-content/uploads/2019/07/Бондарь-1280x742.jpg"
-tags: ['Деятельность',]
+tags: ['Выставки']
 date: 2019-07-16
 oldUrl: http://shamir.lv/2019/07/16/%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d1%8d%d0%ba%d1%81%d0%bf%d0%be%d0%b7%d0%b8%d1%86%d0%b8%d0%b9-%d0%b2-%d0%bc%d1%83%d0%b7%d0%b5%d0%b5-%d1%80%d0%b8%d0%b6%d1%81%d0%ba%d0%be/
 ---

@@ -2,7 +2,7 @@
 id: "65"
 title: "Концерт «Два дуэта»"
 image: "http://shamir.lv/wp-content/uploads/2016/03/IMG_2007-1320x742.jpg"
-tags: ['Концерты', 'Фестиваль еврейской культуры 5770']
+tags: ['Концерты']
 date: 2009-09-13
 oldUrl: http://shamir.lv/2009/09/13/%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d0%b4%d0%b2%d0%b0-%d0%b4%d1%83%d1%8d%d1%82%d0%b0/
 ---

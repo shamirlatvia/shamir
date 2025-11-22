@@ -2,7 +2,7 @@
 id: "4"
 title: "Футбольный матч Латвия-Израиль в память еврейских спортсменов-жертв Холокоста"
 image: "http://shamir.lv/wp-content/uploads/2016/03/Holocaust-319x343.jpg"
-tags: ['Фестиваль еврейской культуры 5772',]
+tags: ['Фестивали']
 date: 2011-06-04
 oldUrl: http://shamir.lv/2011/06/04/%d1%84%d1%83%d1%82%d0%b1%d0%be%d0%bb%d1%8c%d0%bd%d1%8b%d0%b9-%d0%bc%d0%b0%d1%82%d1%87-%d0%bb%d0%b0%d1%82%d0%b2%d0%b8%d1%8f-%d0%b8%d0%b7%d1%80%d0%b0%d0%b8%d0%bb%d1%8c-%d0%b2-%d0%bf%d0%b0%d0%bc%d1%8f/
 ---

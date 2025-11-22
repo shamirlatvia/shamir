@@ -2,7 +2,7 @@
 id: "48"
 title: "Концерты Аэлиты в Риге 5771"
 image: "http://shamir.lv/wp-content/uploads/2016/03/Aelita-womens-concert-29_08-600x410.jpg"
-tags: ['Концерты', 'Фестиваль еврейской культуры 5771']
+tags: ['Концерты']
 date: 2011-10-30
 oldUrl: http://shamir.lv/2011/10/30/%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82%d1%8b-%d0%b0%d1%8d%d0%bb%d0%b8%d1%82%d1%8b-%d0%b2-%d1%80%d0%b8%d0%b3%d0%b5-5771/
 ---

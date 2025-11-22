@@ -2,7 +2,7 @@
 id: "97"
 title: "Izstāde “Ebreji Norvēģijā un Latvijā. Negaidītās krustceles”"
 image: "http://shamir.lv/wp-content/uploads/2015/09/Clipboard02-3-770x305.jpg"
-tags: ['450 лет вместе. Еврейская культура в латвийской среде - искусство, музыка, образование', 'Выставки']
+tags: ['Выставки']
 date: 2015-09-17
 oldUrl: http://shamir.lv/2015/09/17/the-exhibition-jews-in-norway-and-latvia-unexpected-crossings/
 ---

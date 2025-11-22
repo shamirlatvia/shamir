@@ -2,7 +2,7 @@
 id: "66"
 title: "Почтовая марка памяти Холокоста"
 image: "http://shamir.lv/wp-content/uploads/2016/03/Holocaust-sheet-Copy-435x632.jpg"
-tags: ['Фестиваль еврейской культуры 5772',]
+tags: ['Фестивали']
 date: 2011-05-07
 oldUrl: http://shamir.lv/2011/05/07/%d0%bf%d0%be%d1%87%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%bc%d0%b0%d1%80%d0%ba%d0%b0-%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%b8-%d1%85%d0%be%d0%bb%d0%be%d0%ba%d0%be%d1%81%d1%82%d0%b0/
 ---

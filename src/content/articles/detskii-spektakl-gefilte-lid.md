@@ -2,7 +2,7 @@
 id: "23"
 title: "Детский спектакль «Гефилте лид»"
 image: "http://shamir.lv/wp-content/uploads/2016/03/IMG_1859-1320x742.jpg"
-tags: ['Фестиваль еврейской культуры 5770',]
+tags: ['Фестивали']
 date: 2009-09-13
 oldUrl: http://shamir.lv/2009/09/13/%d0%b4%d0%b5%d1%82%d1%81%d0%ba%d0%b8%d0%b9-%d1%81%d0%bf%d0%b5%d0%ba%d1%82%d0%b0%d0%ba%d0%bb%d1%8c-%d0%b3%d0%b5%d1%84%d0%b8%d0%bb%d1%82%d0%b5-%d0%bb%d0%b8%d0%b4/
 ---

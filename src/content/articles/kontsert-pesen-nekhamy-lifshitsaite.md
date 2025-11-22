@@ -2,7 +2,7 @@
 id: "126"
 title: "Концерт песен Нехамы Лифшицайте"
 image: "http://shamir.lv/wp-content/uploads/2016/03/Gali-3-1211x742.jpg"
-tags: ['Концерты', 'Фестиваль еврейской культуры 5772']
+tags: ['Концерты']
 date: 2011-09-18
 oldUrl: http://shamir.lv/2011/09/18/%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d0%bf%d0%b5%d1%81%d0%b5%d0%bd-%d0%bd%d0%b5%d1%85%d0%b0%d0%bc%d1%8b-%d0%bb%d0%b8%d1%84%d1%88%d0%b8%d1%86%d0%b0%d0%b9%d1%82%d0%b5/
 ---

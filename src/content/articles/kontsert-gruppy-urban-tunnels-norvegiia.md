@@ -2,7 +2,7 @@
 id: "120"
 title: "Концерт группы Urban Tunnels (Норвегия)"
 image: "http://shamir.lv/wp-content/uploads/2015/09/IMG_9344-1320x742.jpg"
-tags: ['450 лет вместе. Еврейская культура в латвийской среде - искусство, музыка, образование', 'Концерты']
+tags: ['Концерты']
 date: 2015-09-17
 oldUrl: http://shamir.lv/2015/09/17/concert-of-klezmer-band-urban-tunells-norway/
 ---

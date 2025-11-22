@@ -1,8 +1,8 @@
 ---
 id: "108"
-title: "Специальное предложение для школьных групп!"
+title: "Изучите творчество еврейских художников-модернистов"
 image: "http://shamir.lv/wp-content/uploads/2019/03/ebreju-maksla-skolas-grupam-595x742.jpg"
-tags: ['Деятельность',]
+tags: ['Образование']
 date: 2019-03-26
 oldUrl: http://shamir.lv/2019/03/26/%d1%81%d0%bf%d0%b5%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d0%bf%d1%80%d0%b5%d0%b4%d0%bb%d0%be%d0%b6%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b4%d0%bb%d1%8f-%d1%88%d0%ba%d0%be%d0%bb%d1%8c%d0%bd%d1%8b/
 ---

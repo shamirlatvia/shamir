@@ -2,7 +2,7 @@
 id: "81"
 title: "Еврейское кладбище в Яунелгаве"
 image: "http://shamir.lv/wp-content/uploads/2016/08/Jaunjelgava04-800x534.jpg"
-tags: ['Исследования',]
+tags: ['Исследования']
 date: 2008-07-26
 oldUrl: http://shamir.lv/2008/07/26/english-%d0%b5%d0%b2%d1%80%d0%b5%d0%b9%d1%81%d0%ba%d0%be%d0%b5-%d0%ba%d0%bb%d0%b0%d0%b4%d0%b1%d0%b8%d1%89%d0%b5-%d0%b2-%d1%8f%d1%83%d0%bd%d0%b5%d0%bb%d0%b3%d0%b0%d0%b2%d0%b5/
 ---

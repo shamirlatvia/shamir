@@ -2,7 +2,7 @@
 id: "25"
 title: "Памятное шествие Шаги живых"
 image: "http://shamir.lv/wp-content/uploads/2016/03/20110704_372-1320x742.jpg"
-tags: ['Фестиваль еврейской культуры 5772',]
+tags: ['Мероприятия']
 date: 2011-07-04
 oldUrl: http://shamir.lv/2011/07/04/%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%bd%d0%be%d0%b5-%d1%88%d0%b5%d1%81%d1%82%d0%b2%d0%b8%d0%b5-%d1%88%d0%b0%d0%b3%d0%b8-%d0%b6%d0%b8%d0%b2%d1%8b%d1%85/
 ---

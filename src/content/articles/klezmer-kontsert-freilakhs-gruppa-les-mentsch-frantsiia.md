@@ -2,7 +2,7 @@
 id: "124"
 title: "Клезмер-концерт «Фрейлахс». Группа “Les Mentsch”, Франция"
 image: "http://shamir.lv/wp-content/uploads/2016/03/IMG_2077-1320x742.jpg"
-tags: ['Концерты', 'Фестиваль еврейской культуры 5770']
+tags: ['Концерты']
 date: 2009-09-13
 oldUrl: http://shamir.lv/2009/09/13/%d0%ba%d0%bb%d0%b5%d0%b7%d0%bc%d0%b5%d1%80-%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-%d1%84%d1%80%d0%b5%d0%b9%d0%bb%d0%b0%d1%85%d1%81-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b0-les-me/
 ---

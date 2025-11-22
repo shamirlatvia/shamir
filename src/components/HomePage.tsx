@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { ArticleCard } from "./ui/card";
 import { Header } from "./Header";
+import { Tooltip } from "./ui/tooltip";
 import type { Article } from "./types";
 import logoSvg from "../assets/logo.svg?raw";
 
@@ -9,16 +10,15 @@ export interface HomePageProps {
 }
 
 const projectLinks: {href: string, label: string}[] = [
-  { href: "http://shamir.lv/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8/", label: "Наши публикации" },
+  { href: "/archive/", label: "Архив новостей" },
   { href: "https://www.rglhm.lv/", label: "Музей Рижского гетто" },
   { href: "http://shamir.lv/eitc-2/", label: "Центр толерантности" },
 ];
 
 const sections = new Map([
-  ['publications', { title: 'Публикации', tag: 'Деятельность' }],
-  ['projects', { title: 'Проекты', tag: 'Проекты' }],
-  ['exhibitions', { title: 'Выставки', tag: 'Выставки' }],
-  ['concerts', { title: 'Концерты', tag: 'Концерты' }],
+  ['education', { title: 'Образование', subtitle: 'Более 2000 участников, включая школьников и студентов', tag: 'Образование' }],
+  ['exhibitions', { title: 'Выставки', subtitle: 'В музее Рижского гетто и не только', tag: 'Выставки' }],
+  ['concerts', { title: 'Концерты', subtitle: 'Концерты и фестивали еврейской музыки', tag: 'Концерты' }],
 ]);
 
 export function HomePage({ articles }: HomePageProps) {
@@ -60,8 +60,8 @@ export function HomePage({ articles }: HomePageProps) {
         dangerouslySetInnerHTML={{ __html: logoSvg }}
         aria-label="Shamir Association Riga Ghetto and Latvia Holocaust Museum Logo"
       />
-      <div id="about" className="flex flex-col items-center gap-2 mb-10">
-        <div className="mx-8 text-center font-serif text-lightaccent dark:text-darkaccent mb-4">
+      <div id="about" className="flex flex-col items-center gap-2 mb-20">
+        <div className="sm:mx-8 md:mx-16 text-center font-serif text-lightaccent dark:text-darkaccent mb-4">
           <p className="text-2xl">Больше двадцати лет мы сохраняем и исследуем память об истории евреев Латвии.</p>
           <p className="text-xl">Основная деятельность Шамира сейчас — музей Рижского гетто. А это сайт-архив, где можно узнать о наших прошлых проектах.</p>
         </div>
@@ -71,7 +71,6 @@ export function HomePage({ articles }: HomePageProps) {
               key={link.href}
               href={link.href}
               className="btn btn-lg w-full text-center"
-              target="_blank"
               rel="noopener noreferrer"
             >
               {link.label}
@@ -79,37 +78,77 @@ export function HomePage({ articles }: HomePageProps) {
           ))}
         </div>
       </div>
-      <hr className="max-w-xl mx-auto my-16 border-lightfg dark:border-darkfg"></hr>
       
+      <div key="publications" className="mb-16 px-4">
+          <header>
+            <h2 className="mb-3">Публикации</h2>
+          </header>
+
+          <div className="flex flex-wrap items-center justify-center gap-12">
+            <div className="flex flex-wrap items-center justify-center gap-5">
+              <span className="text-3xl">нами<br/>издано</span>
+              <span className="text-7xl font-sans">51</span>
+              <span className="max-w-xs text-xl leading-tight">книг,<br/>каталогов,<br/>календарей</span>
+            </div>
+            <div>
+              <Tooltip className="flex flex-wrap items-center justify-center gap-4" content="русском, латышском, английском, немецком, испанском, французском и иврите.">
+                <span className="text-xl underline decoration-dotted">на</span>
+                <span className="text-8xl font-sans">7</span>
+                <span className="text-xl underline decoration-dotted">языках,</span>
+              </Tooltip>
+            </div>
+            <div className="max-w-xs text-xl leading-tight">которые можно<br/>приобрести в<br/><a href="https://shamirshop.lv" className="underline">нашем магазине</a></div>
+          </div>
+      </div>
+
+
       {Array.from(sections.entries()).map(([key, section]) => {
         const sectionArticlesList = sectionArticles.get(key) || [];
         
         return (
-          <div key={key} className="mb-16 px-4">
-            <div className="flex justify-between items-center mb-6 max-w-7xl mx-auto">
-              <h2 className="text-3xl font-bold">{section.title}</h2>
-              <a
-                href={`/archive?tag=${encodeURIComponent(section.tag)}`}
-                className="btn"
-              >
-                Все {section.title.toLowerCase()} →
-              </a>
-            </div>
-            <div className="grid mb-0 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+          <section key={key} className="home-section">
+            <a href={`/archive?tag=${encodeURIComponent(section.tag)}`}>
+              <header>
+                <h2>{section.title}</h2>
+                <a
+                  href={`/archive?tag=${encodeURIComponent(section.tag)}`}
+                  className="btn min-w-16"
+                >
+                  →
+                </a>
+              </header>
+            </a>
+            <p className="subtitle">{section.subtitle}</p>
+            <div className="article-grid">
               {sectionArticlesList.map((article, i) => (
                 <ArticleCard key={article.title + i} article={article} />
               ))}
             </div>
-          </div>
+          </section>
         );
       })}
+
+      <section key="eitc" className="home-section">
+        <a href="http://shamir.lv/eitc-2/">
+          <header>
+            <h2>Европейский международный центр толерантности</h2>
+            <a href="http://shamir.lv/eitc-2/" className="btn">Узнать больше</a>
+          </header>
+        </a>
+        <p className="subtitle">Подзаголовок о Центре толерантности</p>
+        <div className="home-section__images">
+          <img src="http://shamir.lv/wp-content/uploads/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg" alt="" />
+          <img src="http://shamir.lv/wp-content/uploads/2020/04/IMG_5226.jpg" alt="" />
+          <img src="http://shamir.lv/wp-content/uploads/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg" alt="" />
+        </div>
+      </section>
       
       <footer className="pb-10 px-4 text-center">
         <hr className="max-w-xl mx-auto my-12 border-lightfg dark:border-darkfg"></hr>
-        <h2 className="text-xl mb-4">Общество Шамир</h2>
+        <h3 className="mb-4">Общество Шамир</h3>
         <div className="max-w-xl mx-auto grid grid-cols-1 md:grid-cols-2">
           <div>
-            <h3 className="text-lg underline">Связаться с нами:</h3>
+            <h4>Связаться с нами:</h4>
             <p>
               <a href="mailto:shamir@shamir.lv">
                 shamir@shamir.lv
@@ -123,7 +162,7 @@ export function HomePage({ articles }: HomePageProps) {
             </p>
           </div>
           <div>
-            <h3 className="text-lg underline">Пожертвовать:</h3>
+            <h4>Пожертвовать:</h4>
             <p>
               Shamir Society<br />
               Reg Nr 40008083814<br />

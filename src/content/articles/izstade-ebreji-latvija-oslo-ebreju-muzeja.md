@@ -2,7 +2,7 @@
 id: "75"
 title: "Izstāde “Ebreji Latvijā” Oslo Ebreju muzejā"
 image: "http://shamir.lv/wp-content/uploads/2015/09/A-photograph-of-Rivka-Zisel-and-Chaim-Hersh-467x328.jpg"
-tags: ['450 лет вместе. Еврейская культура в латвийской среде - искусство, музыка, образование', 'Выставки']
+tags: ['Выставки']
 date: 2015-09-17
 oldUrl: http://shamir.lv/2015/09/17/exhibition-jews-in-latvia-in-oslo-jewish-museum/
 ---

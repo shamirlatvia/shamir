@@ -2,7 +2,7 @@
 id: "109"
 title: "Выставка Дагмар Калье Два дня зимой"
 image: "http://shamir.lv/wp-content/uploads/2015/05/sva-1000x667.jpg"
-tags: ['450 лет вместе. Еврейская культура в латвийской среде - искусство, музыка, образование', 'Выставки', 'Музей рижского гетто']
+tags: ['Выставки']
 date: 2015-05-13
 oldUrl: http://shamir.lv/2015/05/13/exhibition-of-dagmar-calais-in-riga-ghetto-museum/
 ---

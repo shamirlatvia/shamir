@@ -2,7 +2,7 @@
 id: "68"
 title: "Пурим в Даугавпилсе"
 image: "http://shamir.lv/wp-content/uploads/2016/03/IMG_0322-720x480.jpg"
-tags: ['Фестиваль еврейской культуры 5772',]
+tags: ['Фестивали']
 date: 2011-05-18
 oldUrl: http://shamir.lv/2011/05/18/%d0%bf%d1%83%d1%80%d0%b8%d0%bc-%d0%b2-%d0%b4%d0%b0%d1%83%d0%b3%d0%b0%d0%b2%d0%bf%d0%b8%d0%bb%d1%81%d0%b5/
 ---

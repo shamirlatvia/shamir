@@ -2,7 +2,7 @@
 id: "8"
 title: "Синагоги Латвии"
 image: "http://shamir.lv/wp-content/uploads/2016/08/rezekne_small-448x299.jpg"
-tags: ['Исследования',]
+tags: ['Исследования']
 date: 2014-08-12
 oldUrl: http://shamir.lv/2014/08/12/%d1%81%d0%b8%d0%bd%d0%b0%d0%b3%d0%be%d0%b3%d0%b8-%d0%bb%d0%b0%d1%82%d0%b2%d0%b8%d0%b8/
 ---

@@ -2,7 +2,7 @@
 id: "95"
 title: "Гулливер в стране лилипутов"
 image: "http://shamir.lv/wp-content/uploads/2016/03/Gulliver-2-1320x742.jpg"
-tags: ['Фестиваль еврейской культуры 5772',]
+tags: ['Фестивали']
 date: 2011-05-24
 oldUrl: http://shamir.lv/2011/05/24/%d0%b3%d1%83%d0%bb%d0%bb%d0%b8%d0%b2%d0%b5%d1%80-%d0%b2-%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b5-%d0%bb%d0%b8%d0%bb%d0%b8%d0%bf%d1%83%d1%82%d0%be%d0%b2/
 ---

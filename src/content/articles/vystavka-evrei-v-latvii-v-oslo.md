@@ -2,7 +2,7 @@
 id: "113"
 title: "Выставка «Евреи в Латвии» в Осло"
 image: "http://shamir.lv/wp-content/uploads/2016/03/oslo-629x742.png"
-tags: ['450 лет вместе. Еврейская культура в латвийской среде - искусство, музыка, образование', 'Выставки']
+tags: ['Выставки']
 date: 2015-12-19
 oldUrl: http://shamir.lv/2015/12/19/exhibition-jews-in-latvia-in-oslo/
 ---

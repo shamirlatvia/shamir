@@ -2,7 +2,7 @@
 id: "24"
 title: "Гала-концерт 5771"
 image: "http://shamir.lv/wp-content/uploads/2016/03/IMG_0021-750x500.jpg"
-tags: ['Концерты', 'Фестиваль еврейской культуры 5771']
+tags: ['Концерты']
 date: 2011-09-11
 oldUrl: http://shamir.lv/2011/09/11/%d0%b3%d0%b0%d0%bb%d0%b0-%d0%ba%d0%be%d0%bd%d1%86%d0%b5%d1%80%d1%82-5771/
 ---

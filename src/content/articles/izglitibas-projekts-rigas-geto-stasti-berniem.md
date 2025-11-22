@@ -1,8 +1,8 @@
 ---
 id: "91"
-title: "Izglītības projekts «Rīgas geto stāsti bērniem»"
+title: "Образовательный проект «Rīgas geto stāsti bērniem»"
 image: "http://shamir.lv/wp-content/uploads/2016/09/rgsb-427x441.png"
-tags: ['Деятельность',]
+tags: ['Образование']
 date: 2016-05-15
 oldUrl: http://shamir.lv/2016/05/15/latviesu-izglitibas-projekts-rigas-geto-stasti-berniem/
 ---

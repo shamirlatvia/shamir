@@ -11,10 +11,6 @@ export interface ArchivePageProps {
 }
 
 const priorityTags : Set<string> = new Set([
-  'Деятельность',
-  'Проекты',
-  'Исследования',
-  'Выставки'
 ])
 
 export function ArchivePage({ articles, initialTag }: ArchivePageProps) {
@@ -157,51 +153,51 @@ export function ArchivePage({ articles, initialTag }: ArchivePageProps) {
   }
 
   return (
-    <div className="mx-auto text-lightfg dark:text-darkfg">
-      <div className="mx-8">
+    <div className="text-lightfg dark:text-darkfg">
+      <div className="mx-auto max-w-6xl sm:px-8">
         <Header showBackButton={true}/>
-      </div>
-      <div id="articles" className="flex flex-col items-center gap-6 px-4 mt-10">
-        <h1 className="text-3xl font-bold mb-4">Архив</h1>
-        <Input
-          className="w-full max-w-xl focus:max-w-2xl light text-center text-xl transition-all duration-300 ease-in-out"
-          value={searchValue}
-          onChange={e => setSearchValue(e.target.value)}
-          placeholder="Искать"
-          id="search-input"
-        />
-        <div
-          id="tag-list"
-          className="flex h-14 flex-nowrap overflow-x-auto whitespace-nowrap gap-x-2 px-1 pb-6 w-full scrollbar-thin scrollbar-thumb-gray-300 no-scrollbar"
-        >
-          {selectedTags.size > 0 && (
-            <>
-              <Badge
-                className="px-3 py-1 shadow-md inset-shadow-xl cursor-pointer rounded-full transition hover:bg-lightfg dark:hover:bg-darkfg hover:text-lightbg dark:hover:text-darkbg"
-                onClick={clearTags}
-              >
-                ✕ 
-              </Badge>
-              <div className="w-px mx-1 border-l border-lightfg/40 dark:border-darkfg/40"></div>
-            </>
-          )}
-          {sortedTags.map(tag => {
-            const isSelected = selectedTags.has(tag);
-            const isCompatible = isTagCompatible(tag);
-            const isIncompatible = !isSelected && !isCompatible;
-            
-            return (
-              <Tag
-                key={tag}
-                data-tag={tag}
-                isSelected={isSelected}
-                isIncompatible={isIncompatible}
-                onClick={() => toggleTag(tag)}
-              >
-                {tag}
-              </Tag>
-            );
-          })}
+        <div id="articles" className="flex flex-col items-center gap-6 mt-10">
+          <h1 className="text-3xl font-bold mb-4">Архив</h1>
+          <Input
+            className="w-full max-w-xl focus:max-w-2xl light text-center text-xl transition-all duration-300 ease-in-out"
+            value={searchValue}
+            onChange={e => setSearchValue(e.target.value)}
+            placeholder="Искать"
+            id="search-input"
+          />
+          <div
+            id="tag-list"
+            className="flex h-14 flex-nowrap overflow-x-auto whitespace-nowrap gap-x-2 px-1 pb-6 w-full scrollbar-thin scrollbar-thumb-gray-300 no-scrollbar"
+          >
+            {selectedTags.size > 0 && (
+              <>
+                <Badge
+                  className="px-3 py-1 shadow-md inset-shadow-xl cursor-pointer rounded-full transition hover:bg-lightfg dark:hover:bg-darkfg hover:text-lightbg dark:hover:text-darkbg"
+                  onClick={clearTags}
+                >
+                  ✕ 
+                </Badge>
+                <div className="w-px mx-1 border-l border-lightfg/40 dark:border-darkfg/40"></div>
+              </>
+            )}
+            {sortedTags.map(tag => {
+              const isSelected = selectedTags.has(tag);
+              const isCompatible = isTagCompatible(tag);
+              const isIncompatible = !isSelected && !isCompatible;
+              
+              return (
+                <Tag
+                  key={tag}
+                  data-tag={tag}
+                  isSelected={isSelected}
+                  isIncompatible={isIncompatible}
+                  onClick={() => toggleTag(tag)}
+                >
+                  {tag}
+                </Tag>
+              );
+            })}
+          </div>
         </div>
       </div>
       <div id="article-grid" className="grid mb-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
@@ -209,7 +205,8 @@ export function ArchivePage({ articles, initialTag }: ArchivePageProps) {
           <ArticleCard key={article.title + i} article={article} />
         ))}
       </div>
-      <footer className="pb-10 px-4 text-center">
+      <div className="mx-auto max-w-6xl px-6">
+        <footer className="pb-10 text-center">
         <hr className="max-w-xl mx-auto my-12 border-lightfg dark:border-darkfg"></hr>
         <h2 className="text-xl mb-4">Общество Шамир</h2>
         <div className="max-w-xl mx-auto grid grid-cols-1 md:grid-cols-2">
@@ -240,6 +237,7 @@ export function ArchivePage({ articles, initialTag }: ArchivePageProps) {
           </div>
         </div>
       </footer>
+      </div>
     </div>
   );
 }

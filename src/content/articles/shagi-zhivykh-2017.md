@@ -2,7 +2,7 @@
 id: "76"
 title: "Шаги живых-2017"
 image: "http://shamir.lv/wp-content/uploads/2017/06/Dz.Gaj_176-1280x742.jpg"
-tags: ['Деятельность', 'Марш живых', 'Музей рижского гетто', 'Община']
+tags: ['Мероприятия']
 date: 2017-07-07
 oldUrl: http://shamir.lv/2017/07/07/%d1%88%d0%b0%d0%b3%d0%b8-%d0%b6%d0%b8%d0%b2%d1%8b%d1%85/
 ---

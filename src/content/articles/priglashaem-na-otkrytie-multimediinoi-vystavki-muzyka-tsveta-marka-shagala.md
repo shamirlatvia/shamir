@@ -2,7 +2,7 @@
 id: "83"
 title: "Приглашаем на открытие мультимедийной выставки «Музыка цвета Марка Шагала»"
 image: "http://shamir.lv/wp-content/uploads/2020/08/shagal-3-fb-e1597398854209-793x521.jpg"
-tags: ['Деятельность',]
+tags: ['Выставки']
 date: 2020-08-14
 oldUrl: http://shamir.lv/2020/08/14/%d0%bf%d1%80%d0%b8%d0%b3%d0%bb%d0%b0%d1%88%d0%b0%d0%b5%d0%bc-%d0%bd%d0%b0-%d0%be%d1%82%d0%ba%d1%80%d1%8b%d1%82%d0%b8%d0%b5-%d0%bc%d1%83%d0%bb%d1%8c%d1%82%d0%b8%d0%bc%d0%b5%d0%b4%d0%b8%d0%b9%d0%bd/
 ---

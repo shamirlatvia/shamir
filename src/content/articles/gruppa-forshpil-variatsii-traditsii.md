@@ -2,7 +2,7 @@
 id: "87"
 title: "Группа Forshpil — Вариации традиции"
 image: "http://shamir.lv/wp-content/uploads/2016/03/IMG_5522-12-1320x742.jpg"
-tags: ['Фестиваль еврейской культуры 5772',]
+tags: ['Фестивали']
 date: 2011-03-31
 oldUrl: http://shamir.lv/2011/03/31/%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b0-forshpil-%d0%b2%d0%b0%d1%80%d0%b8%d0%b0%d1%86%d0%b8%d0%b8-%d1%82%d1%80%d0%b0%d0%b4%d0%b8%d1%86%d0%b8%d0%b8/
 ---

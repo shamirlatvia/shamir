@@ -2,7 +2,7 @@
 id: "26"
 title: "Второй семинар для учителей по Холокосту и толерантности"
 image: "http://shamir.lv/wp-content/uploads/2016/03/1050244800-660x742.jpg"
-tags: ['Преподавание истории Холокоста',]
+tags: ['Образование']
 date: 2008-05-20
 oldUrl: http://shamir.lv/2008/05/20/%d0%b2%d1%82%d0%be%d1%80%d0%be%d0%b9-%d1%81%d0%b5%d0%bc%d0%b8%d0%bd%d0%b0%d1%80-%d0%b4%d0%bb%d1%8f-%d1%83%d1%87%d0%b8%d1%82%d0%b5%d0%bb%d0%b5%d0%b9-%d0%bf%d0%be-%d1%85%d0%be%d0%bb%d0%be%d0%ba%d0%be/
 ---

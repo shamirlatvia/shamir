@@ -2,7 +2,7 @@
 id: "105"
 title: "Марш живых — 2016: отчет"
 image: "http://shamir.lv/wp-content/uploads/2016/07/Gajiens_177-1320x742.jpg"
-tags: ['Деятельность', 'Марш живых']
+tags: ['Мероприятия']
 date: 2016-07-04
 oldUrl: http://shamir.lv/2016/07/04/%d0%bc%d0%b0%d1%80%d1%88-%d0%b6%d0%b8%d0%b2%d1%8b%d1%85-2016-%d0%be%d1%82%d1%87%d0%b5%d1%82/
 ---

@@ -2,7 +2,7 @@
 id: "61"
 title: "Итоги 6 Международной конференции “Музеи Холокоста в XXI веке: Задачи и Перспективы”"
 image: "http://shamir.lv/wp-content/uploads/2019/06/DSC02021-1280x742.jpg"
-tags: ['Деятельность',]
+tags: ['Конференции']
 date: 2019-06-19
 oldUrl: http://shamir.lv/2019/06/19/%d0%b8%d1%82%d0%be%d0%b3%d0%b8-6-%d0%bc%d0%b5%d0%b6%d0%b4%d1%83%d0%bd%d0%b0%d1%80%d0%be%d0%b4%d0%bd%d0%be%d0%b9-%d0%ba%d0%be%d0%bd%d1%84%d0%b5%d1%80%d0%b5%d0%bd%d1%86%d0%b8%d0%b8-%d0%bc%d1%83/
 ---

@@ -2,7 +2,7 @@
 id: "96"
 title: "Пресса о фестивале"
 image: "http://shamir.lv/wp-content/uploads/2016/03/PressCover-1320x742.jpg"
-tags: ['Фестиваль еврейской культуры 5770',]
+tags: ['Фестивали']
 date: 2011-03-10
 oldUrl: http://shamir.lv/2011/03/10/%d0%bf%d1%80%d0%b5%d1%81%d1%81%d0%b0-%d0%be-%d1%84%d0%b5%d1%81%d1%82%d0%b8%d0%b2%d0%b0%d0%bb%d0%b5/
 ---

@@ -2,7 +2,7 @@
 id: "116"
 title: "Исайя Берлин. Идеи, плюрализм ценностей и толерантность в обществе в 20 веке"
 image: "http://shamir.lv/wp-content/uploads/2016/03/berlin-200x170.jpg"
-tags: ['Фестиваль еврейской культуры 5771',]
+tags: ['Фестивали']
 date: 2010-06-09
 oldUrl: http://shamir.lv/2010/06/09/%d0%b8%d1%81%d0%b0%d0%b9%d1%8f-%d0%b1%d0%b5%d1%80%d0%bb%d0%b8%d0%bd-%d0%b8%d0%b4%d0%b5%d0%b8-%d0%bf%d0%bb%d1%8e%d1%80%d0%b0%d0%bb%d0%b8%d0%b7%d0%bc-%d1%86%d0%b5%d0%bd%d0%bd%d0%be%d1%81%d1%82%d0%b5/
 ---

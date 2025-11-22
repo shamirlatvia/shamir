@@ -2,7 +2,7 @@
 id: "79"
 title: "Выпущена почтовая марка, в честь заслуженного общественного деятеля Соломона Михоэлса"
 image: "http://shamir.lv/wp-content/uploads/2020/05/marka-960x720.jpg"
-tags: ['Деятельность',]
+tags: ['Проекты']
 date: 2020-04-24
 oldUrl: http://shamir.lv/2020/04/24/%d0%b2%d1%8b%d0%bf%d1%83%d1%89%d0%b5%d0%bd%d0%b0-%d0%bf%d0%be%d1%87%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%bc%d0%b0%d1%80%d0%ba%d0%b0-%d0%b2-%d1%87%d0%b5%d1%81%d1%82%d1%8c-%d0%b7%d0%b0%d1%81%d0%bb%d1%83/
 ---

@@ -98,18 +98,18 @@ export function ArticlePage({ article }: ArticlePageProps) {
         />
       )}
 
-      <div className="mb-2 gap-1">
+      <div className="font-sans mb-2 gap-1">
         {
           (article.tags||[]).join(" · ")
         }
       </div>
       <h1 
-        className="text-2xl md:text-3xl lg:text-4xl font-serif font-semibold text-lightaccent dark:text-darkaccent mb-4 uppercase hyphens-auto"
+        className="text-2xl md:text-3xl lg:text-4xl text-lightaccent dark:text-darkaccent mb-4 uppercase hyphens-auto"
       >
         {article.title}
       </h1>
       {article.date && (
-        <div className="text-sm mb-8">
+        <div className="text-sm font-sans mb-8">
           {formatDate(article.date)}
         </div>
       )}

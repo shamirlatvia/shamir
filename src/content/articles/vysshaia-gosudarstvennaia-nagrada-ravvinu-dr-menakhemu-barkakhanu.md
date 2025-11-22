@@ -2,7 +2,7 @@
 id: "98"
 title: "Высшая государственная награда раввину др. Менахему Баркахану"
 image: "http://shamir.lv/wp-content/uploads/2017/11/hfig7SrvQv2OGqGLaaKmeNcMOlQl6tAp-1280x742.png"
-tags: ['Деятельность',]
+tags: []
 date: 2017-11-29
 oldUrl: http://shamir.lv/2017/11/29/%d0%b2%d1%8b%d1%81%d1%88%d0%b0%d1%8f-%d0%b3%d0%be%d1%81%d1%83%d0%b4%d0%b0%d1%80%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%b0%d1%8f-%d0%bd%d0%b0%d0%b3%d1%80%d0%b0%d0%b4%d0%b0-%d1%80%d0%b0%d0%b2%d0%b2/
 ---

@@ -2,7 +2,7 @@
 id: "107"
 title: "Feliksa Mostoviča gleznu izstāde Ebreju miests. Zaudēta, bet neaizmirsta pasaule"
 image: "http://shamir.lv/wp-content/uploads/2015/11/Clipboard04-2-960x637.jpg"
-tags: ['450 лет вместе. Еврейская культура в латвийской среде - искусство, музыка, образование', 'Выставки']
+tags: ['Выставки']
 date: 2015-11-23
 oldUrl: http://shamir.lv/2015/11/23/exhibition-by-feliks-mostowizs-shtetl-a-world-lost-but-not-forgotten/
 ---

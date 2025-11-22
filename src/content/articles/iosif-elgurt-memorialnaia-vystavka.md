@@ -2,7 +2,7 @@
 id: "18"
 title: "Иосиф Эльгурт. Мемориальная выставка"
 image: "http://shamir.lv/wp-content/uploads/2016/03/Ziemas-1320x742.jpg"
-tags: ['Выставки', 'Фестиваль еврейской культуры 5772']
+tags: ['Выставки']
 date: 2011-02-03
 oldUrl: http://shamir.lv/2011/02/03/%d0%b8%d0%be%d1%81%d0%b8%d1%84-%d1%8d%d0%bb%d1%8c%d0%b3%d1%83%d1%80%d1%82-%d0%bc%d0%b5%d0%bc%d0%be%d1%80%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%b2%d1%8b%d1%81%d1%82%d0%b0%d0%b2%d0%ba%d0%b0/
 ---

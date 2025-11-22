@@ -2,7 +2,7 @@
 id: "19"
 title: "Памятные рощи возле Иерусалима"
 image: "http://shamir.lv/wp-content/uploads/2017/05/image003-1280x742.jpg"
-tags: ['Деятельность', 'Проекты']
+tags: ['Проекты']
 date: 2017-04-29
 oldUrl: http://shamir.lv/2017/04/29/%d0%bf%d0%b0%d0%bc%d1%8f%d1%82%d0%bd%d1%8b%d0%b5-%d1%80%d0%be%d1%89%d0%b8-%d0%b2%d0%be%d0%b7%d0%bb%d0%b5-%d0%b8%d0%b5%d1%80%d1%83%d1%81%d0%b0%d0%bb%d0%b8%d0%bc%d0%b0/
 ---
