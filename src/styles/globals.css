@@ -121,17 +121,13 @@
       @apply grid mb-0 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4;
     }
 
-    .home-section__images {
-      @apply flex gap-4 mb-6;
+    .image-grid {
+      @apply grid grid-cols-3 gap-4 mb-6;
       height: 300px;
 
       img {
-        @apply flex-1 h-full object-cover rounded-lg;
+        @apply h-full object-cover rounded-lg;
         min-width: 0;
-      }
-
-      .btn {
-        @apply flex-shrink-0 max-w-fit;
       }
     }
   }

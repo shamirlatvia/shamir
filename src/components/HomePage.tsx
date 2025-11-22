@@ -10,9 +10,7 @@ export interface HomePageProps {
 }
 
 const projectLinks: {href: string, label: string}[] = [
-  { href: "/archive/", label: "Архив новостей" },
-  { href: "https://www.rglhm.lv/", label: "Музей Рижского гетто" },
-  { href: "http://shamir.lv/eitc-2/", label: "Центр толерантности" },
+  { href: "https://www.rglhm.lv/", label: "На сайт музея Рижского гетто" },
 ];
 
 const sections = new Map([
@@ -60,12 +58,12 @@ export function HomePage({ articles }: HomePageProps) {
         dangerouslySetInnerHTML={{ __html: logoSvg }}
         aria-label="Shamir Association Riga Ghetto and Latvia Holocaust Museum Logo"
       />
-      <div id="about" className="flex flex-col items-center gap-2 mb-20">
-        <div className="sm:mx-8 md:mx-16 text-center font-serif text-lightaccent dark:text-darkaccent mb-4">
+      <div id="about" className="flex flex-col items-center gap-2 mb-16">
+        <div className="sm:mx-8 md:mx-16 text-center font-serif text-lightaccent dark:text-darkaccent mb-6">
           <p className="text-2xl">Больше двадцати лет мы сохраняем и исследуем память об истории евреев Латвии.</p>
-          <p className="text-xl">Основная деятельность Шамира сейчас — музей Рижского гетто. А это сайт-архив, где можно узнать о наших прошлых проектах.</p>
+          <p className="text-xl mb-0">Основная деятельность Шамира сейчас — музей Рижского гетто. А это сайт-архив, где можно узнать о наших прошлых проектах.</p>
         </div>
-        <div className="text-xl grid grid-cols-1 sm:grid-cols-3 gap-10 px-4 max-w-100">
+        <div className="text-xl grid grid-cols-1 gap-10 px-4 max-w-100 mb-6">
           {projectLinks.map((link) => (
             <a
               key={link.href}
@@ -76,6 +74,9 @@ export function HomePage({ articles }: HomePageProps) {
               {link.label}
             </a>
           ))}
+        </div>
+        <div>
+          <a href="/archive" className="text-xl underline">Все новости в архиве</a>
         </div>
       </div>
       
@@ -136,7 +137,7 @@ export function HomePage({ articles }: HomePageProps) {
           </header>
         </a>
         <p className="subtitle">Подзаголовок о Центре толерантности</p>
-        <div className="home-section__images">
+        <div className="image-grid">
           <img src="http://shamir.lv/wp-content/uploads/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg" alt="" />
           <img src="http://shamir.lv/wp-content/uploads/2020/04/IMG_5226.jpg" alt="" />
           <img src="http://shamir.lv/wp-content/uploads/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg" alt="" />
