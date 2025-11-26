@@ -52,7 +52,7 @@ export function ArticleCard({ article, href }: ArticleCardProps) {
               (article.tags||[]).join(" · ")
             }
           </div>
-          <div className="text-xs font-sans text-darkfg/70 mb-1 [text-shadow:_0_1px_6px_rgb(0_0_0_/_0.6),_0_1px_3px_rgb(0_0_0_/_0.8)]">{formatDate(article.date)}</div>
+          {/* <div className="text-xs font-sans text-darkfg/70 mb-1 [text-shadow:_0_1px_6px_rgb(0_0_0_/_0.6),_0_1px_3px_rgb(0_0_0_/_0.8)]">{formatDate(article.date)}</div> */}
         </div>
       </Card>
     </a>
