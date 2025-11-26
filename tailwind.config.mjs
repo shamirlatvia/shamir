@@ -15,13 +15,13 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
 
-        lightbg: "#dcd6c8",
-        lightfg: "#404040",
-        lightaccent: "#4e4c48",
+        lightbg: "#daf1fd",
+        lightfg: "#313544",
+        lightaccent: "#0d3568",
 
-        darkbg: "#4e4c48",
-        darkfg: "#dcd6c8",
-        darkaccent: "#ffffff",
+        darkbg: "#103154",
+        darkfg: "#d8dff3",
+        darkaccent: "#f2f2f2",
 
         primary: {
           DEFAULT: "hsl(var(--primary))",
