@@ -41,6 +41,14 @@
     font-weight: 350;
   }
 
+  .shine-light {
+    text-shadow: 0 0 56px #ffffff
+  }
+
+  .shine-dark {
+    text-shadow: none
+  }
+
   h1,
   h2,
   h3,
@@ -51,7 +59,7 @@
   }
 
   h1 {
-    @apply text-4xl
+    @apply text-4xl shine-light dark:shine-dark;
   }
 
   h2 {

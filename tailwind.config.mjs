@@ -15,7 +15,7 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
 
-        lightbg: "rgb(167 189 221)",
+        lightbg: "#afc2dd",
         lightfg: "#1e243d",
         lightaccent: "#0d3568",
 

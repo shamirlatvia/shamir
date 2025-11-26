@@ -60,7 +60,7 @@ export function HomePage({ articles }: HomePageProps) {
         aria-label="Shamir Association Riga Ghetto and Latvia Holocaust Museum Logo"
       />
       <div id="about" className="flex flex-col items-center gap-2 mb-16">
-        <div className="sm:mx-8 md:mx-16 text-center font-serif text-lightaccent dark:text-darkaccent mb-6">
+        <div className="sm:mx-8 md:mx-16 text-center font-serif text-lightaccent dark:text-darkaccent shine-light dark:shine-dark mb-6">
           <p className="text-2xl">Больше двадцати лет мы сохраняем и исследуем память об истории евреев Латвии.</p>
           <p className="text-xl mb-0">Основная деятельность Шамира сейчас — музей Рижского гетто. А это сайт-архив, где можно узнать о наших прошлых проектах.</p>
         </div>
