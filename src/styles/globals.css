@@ -97,6 +97,11 @@
   padding-right: 1rem;
 }
 
+.image-grid-item {
+  max-width: 100%;
+  height: auto;
+}
+
 @layer components {
   .bordered {
     @apply border-2 border-lightfg dark:border-darkfg
