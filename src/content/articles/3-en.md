@@ -12,19 +12,19 @@ image: '/images/2016/03/cover_small-750x532.jpg'
 September 1st, the new Jewish calendar was released. This unique calendar is dedicated to the history of Jewish development during Latvia’s First Republic, a little known theme for today’s readers. The calendar describes, in detail, Jewish religious holidays and traditions, historical dates, memorial days, the State of Israel’s holidays which unite Jews all around the world, as well as Republic of Latvia national dates and holidays.
 
 			
-[![](/images/2016/03/cover_small-1-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/cover_small-1.jpg)
+[![](/images/2016/03/cover_small-1-470x313.jpg)](/images/2016/03/cover_small-1.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_08-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_08.jpg)
+[![](/images/2016/03/kalend-24-08_Page_08-470x313.jpg)](/images/2016/03/kalend-24-08_Page_08.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_26-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_26.jpg)
+[![](/images/2016/03/kalend-24-08_Page_26-470x313.jpg)](/images/2016/03/kalend-24-08_Page_26.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_30-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_30.jpg)
+[![](/images/2016/03/kalend-24-08_Page_30-470x313.jpg)](/images/2016/03/kalend-24-08_Page_30.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_32-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_32.jpg)
+[![](/images/2016/03/kalend-24-08_Page_32-470x313.jpg)](/images/2016/03/kalend-24-08_Page_32.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_35-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_35.jpg)
+[![](/images/2016/03/kalend-24-08_Page_35-470x313.jpg)](/images/2016/03/kalend-24-08_Page_35.jpg)

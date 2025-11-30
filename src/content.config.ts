@@ -3,7 +3,7 @@ import { defineCollection, z } from 'astro:content';
 const baseArticleSchema = z.object({
   id: z.union([z.string(), z.number()]).transform((v) => v.toString()),
   title: z.string(),
-  image: z.string().url().optional(),
+  image: z.string().optional(), // Allow local paths like /images/... or full URLs
   tags: z
     .union([
       z.array(z.string()),

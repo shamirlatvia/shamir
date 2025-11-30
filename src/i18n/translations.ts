@@ -101,8 +101,8 @@ export const translations: Record<Locale, Translations> = {
     eitcSections: [
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/2.jpg',
+          '/images/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg',
+          '/images/2020/04/2.jpg',
         ],
         paragraphs: [
           'Когда мы говорим о Холокосте, то перед глазами встают ужасные картины, известные нам по воспоминаниям очевидцев — газовые камеры, крематории, лагеря смерти… Но ведь Холокост не начинался с геноцида, он не начинался с гетто и расовых законов и даже не с прихода к власти Гитлера в 1933 году. Он начинался с общественных акций молодой тогда нацистской партии, с марширующих молодчиков со свастиками на рукавах, с хулиганских нападений на евреев, наконец с издания с виду безобидной книжки под названием «Майн Кампф».',
@@ -111,9 +111,9 @@ export const translations: Record<Locale, Translations> = {
       },
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5350.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5242.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5226.jpg',
+          '/images/2020/04/IMG_5350.jpg',
+          '/images/2020/04/IMG_5242.jpg',
+          '/images/2020/04/IMG_5226.jpg',
         ],
         paragraphs: [
           'Все это происходит в Европе, еще совсем недавно считавшейся самым стабильным и безопасным континентом, в Европе, сказавшей себе еще в далеком 1945 г. слова NEVER MORE (НИКОГДА БОЛЬШЕ), и сделавшей их своим политическим лозунгом применительно к любой человеконенавистнической идеологии. Теперь здесь снова убивают и калечат людей по одному единственному мотиву — мотиву ненависти.',
@@ -122,7 +122,7 @@ export const translations: Record<Locale, Translations> = {
       },
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg',
+          '/images/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg',
         ],
         paragraphs: [
           'Для этого мы должны дополнить академические исследования истории Европы 3040-х гг. исследованиями современного состояния европейского общества.',
@@ -170,8 +170,8 @@ export const translations: Record<Locale, Translations> = {
     eitcSections: [
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/2.jpg',
+          '/images/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg',
+          '/images/2020/04/2.jpg',
         ],
         paragraphs: [
           'Kad runājam par holokaustu, mūsu acu priekšā uzaust biedējošas ainas, kuras mums zināmas no aculiecinieku atmiņām – gāzes kameras, krematorijas, nāves nometnes… Taču holokausts nesākās ar genocīdu, tas nesākās ar geto un rasu likumiem, pat ne ar Hitlera nākšanu pie varas 1933.gadā. Tas sākās ar tolaik vēl jaunās nacistu partijas sabiedriskajām akcijām, ar soļojošiem slepkavām ar svastikām uz piedurknēm, ar huligāniskiem uzbrukumiem ebrejiem, un visbeidzot ar škietami nevainīgas grāmatiņas izdošanu zem nosaukuma "Mana cīņa".',
@@ -180,9 +180,9 @@ export const translations: Record<Locale, Translations> = {
       },
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5350.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5242.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5226.jpg',
+          '/images/2020/04/IMG_5350.jpg',
+          '/images/2020/04/IMG_5242.jpg',
+          '/images/2020/04/IMG_5226.jpg',
         ],
         paragraphs: [
           'Tas viss notiek Eiropā, kura vēl pavisam nesen tika uzskatīta par visstabilāko un drošāko kontinentu – Eiropā, kura vēl tālajā 1945.gadā izteica vārdus NEVER MORE (NEKAD VAIRS), padarot tos par savu politisko lozungu, kuru attiecināja to uz jebkuru cilvēku nīstošo ideoloģiju. Tagad šeit atkal nogalina cilvēkus pēc viena vienīga motīva – naida motīva.',
@@ -191,7 +191,7 @@ export const translations: Record<Locale, Translations> = {
       },
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg',
+          '/images/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg',
         ],
         paragraphs: [
           'Katrai Eiropas valstij ir sava specifika, taču neiecietības problemātika — tās ir sistemātiskas problēmas, kurām ir kopīgas iezīmes, kas raksturīgas visai Eiropai. Ņemot to vērā, Baltijas tolerances centra valde sadarbībā ar biedrību "Šamir", Rīgas geto un holokausta muzejs Latvijā un Eiropas demokrātijas attīstības centrs ir pieņēmis lēmumu par Baltijas tolerances centra pārveidošanu Eiropas tolerances centrā.',
@@ -239,8 +239,8 @@ export const translations: Record<Locale, Translations> = {
     eitcSections: [
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/2.jpg',
+          '/images/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg',
+          '/images/2020/04/2.jpg',
         ],
         paragraphs: [
           'While talking of Holocaust, we imagine terrible picture, made known to us by eyewitnesses – the gas chambers, crematories, death camps … But the Holocaust did not start with the genocide, it did not begin with the ghettos and racial discrimination, not even with Hitler rising to power in 1933. It started with public activities of the young Nazi party, with marching thugs with swastikas on their sleeves, with vandal attacks on Jews, and finally with publication of seemingly harmless book called "Mein Kampf."',
@@ -249,9 +249,9 @@ export const translations: Record<Locale, Translations> = {
       },
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5350.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5242.jpg',
-          'http://shamir.lv/wp-content/uploads/2020/04/IMG_5226.jpg',
+          '/images/2020/04/IMG_5350.jpg',
+          '/images/2020/04/IMG_5242.jpg',
+          '/images/2020/04/IMG_5226.jpg',
         ],
         paragraphs: [
           'This is happening in Europe, just recently considered the most stable and secure continent, in Europe, who declared back in 1945 NEVER AGAIN, and making it political slogan in relation to any extremist ideology. But people are getting killed here again based on one single motive – hate.',
@@ -260,7 +260,7 @@ export const translations: Record<Locale, Translations> = {
       },
       {
         images: [
-          'http://shamir.lv/wp-content/uploads/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg',
+          '/images/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg',
         ],
         paragraphs: [
           'Each European country has its own identity, but the problem of hate – is systemic problem. It has common features typical for the whole Europe. Based on this Board of the Baltic Center of tolerance, together with the Association "Shamir", Museum of the Riga ghetto and the European Centre for Democracy Development decided to expend the Baltic Center of tolerance in European Center of tolerance.',

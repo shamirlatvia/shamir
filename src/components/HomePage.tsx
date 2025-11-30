@@ -162,9 +162,9 @@ export function HomePage({ articles, locale = 'ru', translations, currentPath = 
         </a>
         <p className="subtitle">{t.eitcSubtitle}</p>
         <div className="image-grid">
-          <img src="http://shamir.lv/wp-content/uploads/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg" alt="" />
-          <img src="http://shamir.lv/wp-content/uploads/2020/04/IMG_5226.jpg" alt="" />
-          <img src="http://shamir.lv/wp-content/uploads/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg" alt="" />
+          <img src="/images/2020/04/2017.04.27.Hol-Jipsy_002-1024x680.jpg" alt="" />
+          <img src="/images/2020/04/IMG_5226.jpg" alt="" />
+          <img src="/images/2020/04/2017.05.14.Hol-Gipsy_028-1024x794.jpg" alt="" />
         </div>
       </section>
       

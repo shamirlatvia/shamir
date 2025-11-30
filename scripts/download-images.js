@@ -32,14 +32,26 @@ function extractImageUrls(content) {
     urls.add(match[1]);
   }
   
+  // Match link URLs in markdown images: [![alt](thumb)](full-res-url)
+  // These are often full-resolution versions linked from thumbnails
+  const markdownImageLinks = content.matchAll(/\[!\[.*?\]\([^)]+\)\]\((http[^)]+)\)/g);
+  for (const match of markdownImageLinks) {
+    const url = match[1];
+    // Only add if it's an image URL (shamir.lv or wixstatic)
+    if (url.includes('shamir.lv') || url.includes('wixstatic.com')) {
+      urls.add(url);
+    }
+  }
+  
   // Match HTML img tags: <img src="url">
   const htmlImages = content.matchAll(/<img[^>]+src=["'](http[^)]+)["']/gi);
   for (const match of htmlImages) {
     urls.add(match[1]);
   }
   
-  // Match frontmatter image fields
-  const frontmatterImages = content.matchAll(/image:\s*['"](http[^'"]+)['"]/g);
+  // Match frontmatter image fields (including multi-line YAML with >-)
+  // Format: image: >-\n  http://... or image: 'http://...'
+  const frontmatterImages = content.matchAll(/image:\s*(?:>-\s*\n\s*)?['"]?(http[^\s'"]+)['"]?/g);
   for (const match of frontmatterImages) {
     urls.add(match[1]);
   }
@@ -187,17 +199,39 @@ async function main() {
     let updated = false;
     
     for (const [originalUrl, localUrl] of urlMap.entries()) {
-      // Replace in markdown images
+      // Replace in markdown images: ![alt](url)
       const markdownPattern = new RegExp(`!\\[([^\\]]*)\\]\\(${originalUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\)`, 'g');
       if (markdownPattern.test(content)) {
         content = content.replace(markdownPattern, `![$1](${localUrl})`);
         updated = true;
       }
       
-      // Replace in frontmatter
-      const frontmatterPattern = new RegExp(`(image:\\s*['"])${originalUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(['"])`, 'g');
-      if (frontmatterPattern.test(content)) {
-        content = content.replace(frontmatterPattern, `$1${localUrl}$2`);
+      // Replace in markdown image links: [![alt](thumb)](full-res-url)
+      const markdownLinkPattern = new RegExp(`(\\[!\\[[^\\]]*\\]\\([^)]+\\)\\]\\()${originalUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(\\))`, 'g');
+      if (markdownLinkPattern.test(content)) {
+        content = content.replace(markdownLinkPattern, `$1${localUrl}$2`);
+        updated = true;
+      }
+      
+      // Replace in frontmatter (including multi-line YAML format)
+      // Match: image: >-\n  http://... or image: 'http://...'
+      const frontmatterPattern1 = new RegExp(`(image:\\s*['"])${originalUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(['"])`, 'g');
+      if (frontmatterPattern1.test(content)) {
+        content = content.replace(frontmatterPattern1, `$1${localUrl}$2`);
+        updated = true;
+      }
+      
+      // Match multi-line format: image: >-\n  http://...
+      const frontmatterPattern2 = new RegExp(`(image:\\s*>-\s*\n\s*)${originalUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'g');
+      if (frontmatterPattern2.test(content)) {
+        content = content.replace(frontmatterPattern2, `$1${localUrl}`);
+        updated = true;
+      }
+      
+      // Also replace in markdown body (standalone image references)
+      if (content.includes(originalUrl)) {
+        // Replace any remaining occurrences
+        content = content.replaceAll(originalUrl, localUrl);
         updated = true;
       }
     }

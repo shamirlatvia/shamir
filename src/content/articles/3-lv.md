@@ -12,19 +12,19 @@ image: '/images/2016/03/cover_small-750x532.jpg'
 1.septembrī dienasgaismu ieraudzīja jaunais ebreju kalendārs. Tā unikalitāte slēpjas tajā, ka tas veltīts ebreju izglītības vēsturei Pirmajā Latvijas Republikā, tēmai, kas maz zināma mūsdienu lasītājam. Kalendārs sīki apraksta ebreju reliģiozos svētkus un tradīcijas, vēsturiskos datumus, piemiņas dienas un Izraēlas Valsts svētkus, kas apvieno ebrejus visā pasaulē, kā arī Latvijas Republikas nacionālos datumus.
 
 			
-[![](/images/2016/03/cover_small-1-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/cover_small-1.jpg)
+[![](/images/2016/03/cover_small-1-470x313.jpg)](/images/2016/03/cover_small-1.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_08-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_08.jpg)
+[![](/images/2016/03/kalend-24-08_Page_08-470x313.jpg)](/images/2016/03/kalend-24-08_Page_08.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_26-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_26.jpg)
+[![](/images/2016/03/kalend-24-08_Page_26-470x313.jpg)](/images/2016/03/kalend-24-08_Page_26.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_30-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_30.jpg)
+[![](/images/2016/03/kalend-24-08_Page_30-470x313.jpg)](/images/2016/03/kalend-24-08_Page_30.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_32-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_32.jpg)
+[![](/images/2016/03/kalend-24-08_Page_32-470x313.jpg)](/images/2016/03/kalend-24-08_Page_32.jpg)
 			
 			
-[![](/images/2016/03/kalend-24-08_Page_35-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/kalend-24-08_Page_35.jpg)
+[![](/images/2016/03/kalend-24-08_Page_35-470x313.jpg)](/images/2016/03/kalend-24-08_Page_35.jpg)

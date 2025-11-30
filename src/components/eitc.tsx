@@ -9,7 +9,7 @@ export interface EITCProps {
   currentPath?: string;
 }
 
-const EITC_LOGO_URL = 'http://shamir.lv/wp-content/uploads/2020/04/eitc-logo.jpg';
+const EITC_LOGO_URL = '/images/2020/04/eitc-logo.jpg';
 
 export function EITC({ 
   locale = 'ru', 

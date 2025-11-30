@@ -14,22 +14,22 @@ Trešā Starptautiska Festivālā ietvaros 2011. g. 18. maijā tika svinīgi atk
 ****
 
 			
-[![](/images/2016/03/IMG_0077-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0077.jpg)
+[![](/images/2016/03/IMG_0077-400x313.jpg)](/images/2016/03/IMG_0077.jpg)
 			
 			
-[![](/images/2016/03/IMG_0078-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0078.jpg)
+[![](/images/2016/03/IMG_0078-400x313.jpg)](/images/2016/03/IMG_0078.jpg)
 			
 			
-[![](/images/2016/03/IMG_0079-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0079.jpg)
+[![](/images/2016/03/IMG_0079-470x313.jpg)](/images/2016/03/IMG_0079.jpg)
 			
 			
-[![](/images/2016/03/IMG_0082-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0082.jpg)
+[![](/images/2016/03/IMG_0082-400x313.jpg)](/images/2016/03/IMG_0082.jpg)
 			
 			
-[![](/images/2016/03/IMG_0083-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0083.jpg)
+[![](/images/2016/03/IMG_0083-400x313.jpg)](/images/2016/03/IMG_0083.jpg)
 			
 			
-[![](/images/2016/03/IMG_0084-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0084.jpg)
+[![](/images/2016/03/IMG_0084-470x313.jpg)](/images/2016/03/IMG_0084.jpg)
 			
 			
-[![](/images/2016/03/IMG_0086-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0086.jpg)
+[![](/images/2016/03/IMG_0086-470x313.jpg)](/images/2016/03/IMG_0086.jpg)

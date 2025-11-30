@@ -12,22 +12,22 @@ image: '/images/2016/03/IMG_0084-600x400.jpg'
 Jewish religious community and association “Shamir” and Museum of Regional Studies and Art of Bauska are announcing the opening of exposition “Jews in Bauska” on May 18, 2011. At the Museum’s Night more than 1 000 visitors attended the exposition.
 
 			
-[![](/images/2016/03/IMG_0077-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0077.jpg)
+[![](/images/2016/03/IMG_0077-400x313.jpg)](/images/2016/03/IMG_0077.jpg)
 			
 			
-[![](/images/2016/03/IMG_0078-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0078.jpg)
+[![](/images/2016/03/IMG_0078-400x313.jpg)](/images/2016/03/IMG_0078.jpg)
 			
 			
-[![](/images/2016/03/IMG_0079-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0079.jpg)
+[![](/images/2016/03/IMG_0079-470x313.jpg)](/images/2016/03/IMG_0079.jpg)
 			
 			
-[![](/images/2016/03/IMG_0082-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0082.jpg)
+[![](/images/2016/03/IMG_0082-400x313.jpg)](/images/2016/03/IMG_0082.jpg)
 			
 			
-[![](/images/2016/03/IMG_0083-400x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0083.jpg)
+[![](/images/2016/03/IMG_0083-400x313.jpg)](/images/2016/03/IMG_0083.jpg)
 			
 			
-[![](/images/2016/03/IMG_0084-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0084.jpg)
+[![](/images/2016/03/IMG_0084-470x313.jpg)](/images/2016/03/IMG_0084.jpg)
 			
 			
-[![](/images/2016/03/IMG_0086-470x313.jpg)](http://shamir.lv/wp-content/uploads/2016/03/IMG_0086.jpg)
+[![](/images/2016/03/IMG_0086-470x313.jpg)](/images/2016/03/IMG_0086.jpg)
