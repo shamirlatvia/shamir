@@ -61,13 +61,13 @@ export function Header({ showBackButton = false, locale = 'ru', translations, cu
   }, [isSearchExpanded, searchQuery]);
   
   return (
-    <header className="flex justify-between items-center mb-6 mt-8">
-      <div className="flex items-center gap-4">
+    <header className="flex justify-between items-center mb-6 mt-8 overflow-x-hidden max-w-full">
+      <div className="flex items-center gap-4 min-w-0">
         {isHomepage && t && (
           <form
             ref={searchFormRef}
             onSubmit={handleSearchSubmit}
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 flex-shrink-0"
             onClick={(e) => {
               if (!isSearchExpanded) {
                 e.preventDefault();
@@ -78,7 +78,7 @@ export function Header({ showBackButton = false, locale = 'ru', translations, cu
             <div
               className={`btn h-10 transition-all duration-300 ease-in-out ${
                 isSearchExpanded 
-                  ? 'w-64 sm:w-80 min-w-0'
+                  ? 'w-48 sm:w-64 md:w-80 min-w-0 max-w-[calc(100vw-8rem)]'
                   : 'w-10 h-10 p-0 min-w-[2.5rem]'
               } flex items-center justify-center overflow-hidden relative`}
             >
@@ -146,7 +146,7 @@ export function Header({ showBackButton = false, locale = 'ru', translations, cu
             </div>
           </form>
         )}
-        {showBackButton && t ? (
+        {showBackButton && t && !isSearchExpanded ? (
           <a
             href={backHref}
             className="btn w-auto hidden sm:inline-flex"
@@ -155,10 +155,12 @@ export function Header({ showBackButton = false, locale = 'ru', translations, cu
           </a>
         ) : null}
       </div>
-      <div className="flex items-center gap-4">
-        {t && <LanguageSwitcher currentLocale={locale} currentPath={currentPath} />}
-        <ThemeToggle key="theme-toggle" />
-      </div>
+      {!isSearchExpanded && (
+        <div className="flex items-center gap-4 flex-shrink-0">
+          {t && <LanguageSwitcher currentLocale={locale} currentPath={currentPath} />}
+          <ThemeToggle key="theme-toggle" />
+        </div>
+      )}
     </header>
   );
 }
