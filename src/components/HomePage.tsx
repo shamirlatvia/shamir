@@ -165,9 +165,9 @@ export function HomePage({ articles, locale = 'ru', translations, currentPath = 
         </a>
         <p className="subtitle">{t.eitcSubtitle}</p>
         <div className="image-grid">
-            <ImageCard src="/images/2020/04/IMG_5242.jpg" alt="eitc 1" />
-            <ImageCard src="/images/2020/04/IMG_5226.jpg" alt="eitc 2" />
-            <ImageCard src="/images/2020/04/2.jpg" alt="eitc 3" />
+            <ImageCard src="/images/eitc-1.jpg" alt="eitc 1" />
+            <ImageCard src="/images/eitc-3.jpg" alt="eitc 2" />
+            <ImageCard src="/images/eitc-4.jpg" alt="eitc 3" />
         </div>
       </section>
       
