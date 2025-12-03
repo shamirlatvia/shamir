@@ -35,7 +35,7 @@ jobs:
 
       # Option 1: Deploy via SCP (only requires SSH, no rsync needed)
       - name: Clean remote directory
-        if: secrets.DEPLOY_HOST != ''
+        if: ${{ secrets.DEPLOY_HOST }} != ''
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.DEPLOY_HOST }}
@@ -52,7 +52,7 @@ jobs:
             fi
 
       - name: Deploy to server via SCP
-        if: secrets.DEPLOY_HOST != ''
+        if: ${{ secrets.DEPLOY_HOST }} != ''
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.DEPLOY_HOST }}
@@ -62,25 +62,3 @@ jobs:
           source: "dist/*"
           target: ${{ secrets.DEPLOY_REMOTE_PATH }}
           strip_components: 0
-
-      # Option 2: Deploy via rsync over SSH (requires rsync on server)
-      # - name: Deploy to server via rsync
-      #   if: ${{ secrets.DEPLOY_HOST != '' }}
-      #   uses: burnett01/rsync-deployments@7.0.1
-      #   with:
-      #     switches: -avzr --delete
-      #     path: dist/
-      #     remote_path: ${{ secrets.DEPLOY_REMOTE_PATH }}
-      #     remote_host: ${{ secrets.DEPLOY_HOST }}
-      #     remote_user: ${{ secrets.DEPLOY_USER }}
-      #     remote_key: ${{ secrets.DEPLOY_SSH_KEY }}
-
-      # Option 3: Deploy via FTP (if you prefer FTP)
-      # - name: Deploy to server via FTP
-      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      #   env:
-      #     FTP_SERVER: ${{ secrets.FTP_SERVER }}
-      #     FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-      #     FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-      #     LOCAL_DIR: dist/
-      #     REMOTE_DIR: ${{ secrets.DEPLOY_REMOTE_PATH }}
