@@ -40,35 +40,26 @@ jobs:
     # Configure secrets in Settings > Secrets and variables > Actions when ready
     
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Download build artifacts
         uses: actions/download-artifact@v4
         with:
           name: dist
           path: dist/
 
-      - name: Clean remote directory
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.DEPLOY_HOST }}
-          username: ${{ secrets.DEPLOY_USER }}
-          key: ${{ secrets.DEPLOY_SSH_KEY }}
-          port: ${{ secrets.DEPLOY_PORT || 22 }}
-          script: |
-            # Remove all files and directories in the deployment path
-            # but keep the directory itself
-            if [ -d "${{ secrets.DEPLOY_REMOTE_PATH }}" ]; then
-              find "${{ secrets.DEPLOY_REMOTE_PATH }}" -mindepth 1 -delete
-            else
-              mkdir -p "${{ secrets.DEPLOY_REMOTE_PATH }}"
-            fi
-
-      - name: Deploy to server via SCP
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.DEPLOY_HOST }}
-          username: ${{ secrets.DEPLOY_USER }}
-          key: ${{ secrets.DEPLOY_SSH_KEY }}
-          port: ${{ secrets.DEPLOY_PORT || 22 }}
-          source: "dist/"
-          target: ${{ secrets.DEPLOY_REMOTE_PATH }}
-          strip_components: 1
+      - name: Incremental deploy to server
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT || 22 }}
+          DEPLOY_REMOTE_PATH: ${{ secrets.DEPLOY_REMOTE_PATH }}
+          DIST_DIR: dist
+        run: node scripts/incremental-deploy.js
