@@ -76,7 +76,8 @@ function shellEscape(arg) {
 
 // SSH key path should be safe, but escape it just in case
 const escapedSshKeyPath = sshKeyPath.replace(/'/g, "'\\''");
-const sshOptions = `-i '${escapedSshKeyPath}' -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${DEPLOY_PORT}`;
+// Add connection timeout and keep-alive options to prevent hanging
+const sshOptions = `-i '${escapedSshKeyPath}' -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=30 -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -p ${DEPLOY_PORT}`;
 const sshCmd = (command) => {
   // Use single quotes for the command and escape any single quotes in it
   const escapedCommand = command.replace(/'/g, "'\\''");
@@ -118,7 +119,7 @@ function getRemoteFileChecksums() {
   try {
     const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
     const command = `find '${escapedPath}' -type f -exec md5sum {} \\; 2>/dev/null | sed "s|${escapedPath}/||"`;
-    const output = execSync(sshCmd(command), { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'], shell: '/bin/bash' });
+    const output = execSync(sshCmd(command), { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'], shell: '/bin/bash', timeout: 60000 });
     
     const checksums = {};
     const lines = output.trim().split('\n').filter(line => line.trim());
@@ -142,10 +143,18 @@ function getRemoteFileChecksums() {
 function testSSHConnection() {
   try {
     const command = sshCmd('echo "SSH connection test successful"');
-    execSync(command, { stdio: 'pipe', shell: '/bin/bash', timeout: 10000 });
+    // Increase timeout to 60 seconds to allow for slow connections
+    execSync(command, { stdio: 'pipe', shell: '/bin/bash', timeout: 60000 });
     return true;
   } catch (error) {
     console.error('SSH connection test failed:', error.message);
+    if (error.signal === 'SIGTERM' || error.message.includes('ETIMEDOUT')) {
+      console.error('\nSSH connection timed out. This could mean:');
+      console.error('1. The server is unreachable or slow to respond');
+      console.error('2. Network connectivity issues');
+      console.error('3. The DEPLOY_HOST or DEPLOY_PORT is incorrect');
+      console.error('4. Firewall is blocking the connection');
+    }
     if (error.stderr) {
       const stderr = error.stderr.toString();
       console.error('SSH error output:', stderr);
@@ -160,6 +169,12 @@ function testSSHConnection() {
         console.error('2. The user has permission to access the server');
         console.error('3. The key is not encrypted with a passphrase');
       }
+      if (stderr.includes('Connection refused') || stderr.includes('No route to host')) {
+        console.error('\nCannot connect to the server. Please verify:');
+        console.error('1. DEPLOY_HOST is correct');
+        console.error('2. DEPLOY_PORT is correct');
+        console.error('3. The server is running and accessible');
+      }
     }
     return false;
   }
@@ -170,7 +185,7 @@ function ensureRemoteDirectory() {
   try {
     const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
     const command = sshCmd(`mkdir -p '${escapedPath}'`);
-    execSync(command, { stdio: 'pipe', shell: '/bin/bash' });
+    execSync(command, { stdio: 'pipe', shell: '/bin/bash', timeout: 60000 });
   } catch (error) {
     console.error('Failed to create remote directory:', error.message);
     const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
@@ -192,7 +207,7 @@ function uploadFile(localPath, remotePath) {
     try {
       const dirPath = path.join(DEPLOY_REMOTE_PATH, remoteDir);
       const escapedPath = dirPath.replace(/'/g, "'\\''");
-      execSync(sshCmd(`mkdir -p '${escapedPath}'`), { stdio: 'pipe', shell: '/bin/bash' });
+      execSync(sshCmd(`mkdir -p '${escapedPath}'`), { stdio: 'pipe', shell: '/bin/bash', timeout: 60000 });
     } catch (error) {
       console.error(`Failed to create remote directory for ${remotePath}:`, error.message);
       return false;
@@ -200,7 +215,7 @@ function uploadFile(localPath, remotePath) {
   }
   
   try {
-    execSync(scpCmd(localPath, remoteFullPath), { stdio: 'pipe', shell: '/bin/bash' });
+    execSync(scpCmd(localPath, remoteFullPath), { stdio: 'pipe', shell: '/bin/bash', timeout: 60000 });
     return true;
   } catch (error) {
     console.error(`Failed to upload ${remotePath}:`, error.message);
@@ -213,7 +228,7 @@ function deleteRemoteFile(remotePath) {
   const remoteFullPath = path.join(DEPLOY_REMOTE_PATH, remotePath);
   try {
     const escapedPath = remoteFullPath.replace(/'/g, "'\\''");
-    execSync(sshCmd(`rm -f '${escapedPath}'`), { stdio: 'pipe', shell: '/bin/bash' });
+    execSync(sshCmd(`rm -f '${escapedPath}'`), { stdio: 'pipe', shell: '/bin/bash', timeout: 60000 });
     return true;
   } catch (error) {
     console.error(`Failed to delete ${remotePath}:`, error.message);
@@ -326,7 +341,7 @@ async function main() {
   console.log('\nCleaning up empty directories...');
   try {
     const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
-    execSync(sshCmd(`find '${escapedPath}' -type d -empty -delete 2>/dev/null || true`), { stdio: 'pipe', shell: '/bin/bash' });
+    execSync(sshCmd(`find '${escapedPath}' -type d -empty -delete 2>/dev/null || true`), { stdio: 'pipe', shell: '/bin/bash', timeout: 60000 });
   } catch (error) {
     // Ignore errors
   }
