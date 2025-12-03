@@ -5,10 +5,15 @@
  * Compares local files with remote files using checksums
  */
 
-const { execSync } = require('child_process');
-const fs = require('fs');
-const path = require('path');
-const crypto = require('crypto');
+import { execSync } from 'child_process';
+import fs from 'fs';
+import path from 'path';
+import crypto from 'crypto';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const DEPLOY_HOST = process.env.DEPLOY_HOST;
 const DEPLOY_USER = process.env.DEPLOY_USER;
