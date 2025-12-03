@@ -36,9 +36,25 @@ process.on('exit', () => {
   }
 });
 
-const sshOptions = `-i ${sshKeyPath} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${DEPLOY_PORT}`;
-const sshCmd = (command) => `ssh ${sshOptions} ${DEPLOY_USER}@${DEPLOY_HOST} "${command}"`;
-const scpCmd = (source, target) => `scp ${sshOptions} ${source} ${DEPLOY_USER}@${DEPLOY_HOST}:${target}`;
+// Escape shell arguments for use in single-quoted strings
+function shellEscape(arg) {
+  // Replace single quotes with '\'' and wrap in single quotes
+  return "'" + arg.replace(/'/g, "'\\''") + "'";
+}
+
+// SSH key path should be safe, but escape it just in case
+const escapedSshKeyPath = sshKeyPath.replace(/'/g, "'\\''");
+const sshOptions = `-i '${escapedSshKeyPath}' -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -p ${DEPLOY_PORT}`;
+const sshCmd = (command) => {
+  // Use single quotes for the command and escape any single quotes in it
+  const escapedCommand = command.replace(/'/g, "'\\''");
+  return `ssh ${sshOptions} ${DEPLOY_USER}@${DEPLOY_HOST} '${escapedCommand}'`;
+};
+const scpCmd = (source, target) => {
+  const escapedSource = source.replace(/'/g, "'\\''");
+  const escapedTarget = target.replace(/'/g, "'\\''");
+  return `scp ${sshOptions} '${escapedSource}' ${DEPLOY_USER}@${DEPLOY_HOST}:'${escapedTarget}'`;
+};
 
 // Calculate MD5 checksum of a file
 function getFileChecksum(filePath) {
@@ -68,8 +84,9 @@ function getAllFiles(dir, baseDir = dir) {
 // Get remote file checksums via SSH
 function getRemoteFileChecksums() {
   try {
-    const command = `find "${DEPLOY_REMOTE_PATH}" -type f -exec md5sum {} \\; 2>/dev/null | sed "s|${DEPLOY_REMOTE_PATH}/||"`;
-    const output = execSync(sshCmd(command), { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] });
+    const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
+    const command = `find '${escapedPath}' -type f -exec md5sum {} \\; 2>/dev/null | sed "s|${escapedPath}/||"`;
+    const output = execSync(sshCmd(command), { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'], shell: '/bin/bash' });
     
     const checksums = {};
     const lines = output.trim().split('\n').filter(line => line.trim());
@@ -92,9 +109,16 @@ function getRemoteFileChecksums() {
 // Ensure remote directory exists
 function ensureRemoteDirectory() {
   try {
-    execSync(sshCmd(`mkdir -p "${DEPLOY_REMOTE_PATH}"`), { stdio: 'ignore' });
+    const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
+    const command = sshCmd(`mkdir -p '${escapedPath}'`);
+    execSync(command, { stdio: 'pipe', shell: '/bin/bash' });
   } catch (error) {
     console.error('Failed to create remote directory:', error.message);
+    const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
+    const command = sshCmd(`mkdir -p '${escapedPath}'`);
+    console.error('Command was:', command);
+    if (error.stdout) console.error('stdout:', error.stdout.toString());
+    if (error.stderr) console.error('stderr:', error.stderr.toString());
     process.exit(1);
   }
 }
@@ -107,7 +131,9 @@ function uploadFile(localPath, remotePath) {
   // Ensure remote directory exists
   if (remoteDir !== '.') {
     try {
-      execSync(sshCmd(`mkdir -p "${path.join(DEPLOY_REMOTE_PATH, remoteDir)}"`), { stdio: 'ignore' });
+      const dirPath = path.join(DEPLOY_REMOTE_PATH, remoteDir);
+      const escapedPath = dirPath.replace(/'/g, "'\\''");
+      execSync(sshCmd(`mkdir -p '${escapedPath}'`), { stdio: 'pipe', shell: '/bin/bash' });
     } catch (error) {
       console.error(`Failed to create remote directory for ${remotePath}:`, error.message);
       return false;
@@ -115,7 +141,7 @@ function uploadFile(localPath, remotePath) {
   }
   
   try {
-    execSync(scpCmd(localPath, remoteFullPath), { stdio: 'ignore' });
+    execSync(scpCmd(localPath, remoteFullPath), { stdio: 'pipe', shell: '/bin/bash' });
     return true;
   } catch (error) {
     console.error(`Failed to upload ${remotePath}:`, error.message);
@@ -127,7 +153,8 @@ function uploadFile(localPath, remotePath) {
 function deleteRemoteFile(remotePath) {
   const remoteFullPath = path.join(DEPLOY_REMOTE_PATH, remotePath);
   try {
-    execSync(sshCmd(`rm -f "${remoteFullPath}"`), { stdio: 'ignore' });
+    const escapedPath = remoteFullPath.replace(/'/g, "'\\''");
+    execSync(sshCmd(`rm -f '${escapedPath}'`), { stdio: 'pipe', shell: '/bin/bash' });
     return true;
   } catch (error) {
     console.error(`Failed to delete ${remotePath}:`, error.message);
@@ -231,7 +258,8 @@ async function main() {
   // Clean up empty directories on remote
   console.log('\nCleaning up empty directories...');
   try {
-    execSync(sshCmd(`find "${DEPLOY_REMOTE_PATH}" -type d -empty -delete 2>/dev/null || true`), { stdio: 'ignore' });
+    const escapedPath = DEPLOY_REMOTE_PATH.replace(/'/g, "'\\''");
+    execSync(sshCmd(`find '${escapedPath}' -type d -empty -delete 2>/dev/null || true`), { stdio: 'pipe', shell: '/bin/bash' });
   } catch (error) {
     // Ignore errors
   }
