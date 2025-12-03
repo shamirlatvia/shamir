@@ -219,7 +219,7 @@ export const translations: Record<Locale, Translations> = {
     search: 'Search',
     education: 'Education',
     educationSubtitle: 'More than 2000 participants, including schoolchildren and students',
-    research: 'Research',
+    research: 'Researches',
     researchSubtitle: 'Over 20 years of studying the history of Latvian Jews',
     exhibitions: 'Exhibitions',
     exhibitionsSubtitle: 'At the Riga Ghetto and Latvian Holocaust Museum and beyond',
