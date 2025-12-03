@@ -76,8 +76,10 @@ function shellEscape(arg) {
 
 // SSH key path should be safe, but escape it just in case
 const escapedSshKeyPath = sshKeyPath.replace(/'/g, "'\\''");
-// Add connection timeout and keep-alive options to prevent hanging
+// SSH options (uses -p for port)
 const sshOptions = `-i '${escapedSshKeyPath}' -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=30 -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -p ${DEPLOY_PORT}`;
+// SCP options (uses -P for port, note capital P)
+const scpOptions = `-i '${escapedSshKeyPath}' -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=30 -P ${DEPLOY_PORT}`;
 const sshCmd = (command) => {
   // Use single quotes for the command and escape any single quotes in it
   const escapedCommand = command.replace(/'/g, "'\\''");
@@ -86,7 +88,7 @@ const sshCmd = (command) => {
 const scpCmd = (source, target) => {
   const escapedSource = source.replace(/'/g, "'\\''");
   const escapedTarget = target.replace(/'/g, "'\\''");
-  return `scp ${sshOptions} '${escapedSource}' ${DEPLOY_USER}@${DEPLOY_HOST}:'${escapedTarget}'`;
+  return `scp ${scpOptions} '${escapedSource}' ${DEPLOY_USER}@${DEPLOY_HOST}:'${escapedTarget}'`;
 };
 
 // Calculate MD5 checksum of a file
