@@ -9,7 +9,7 @@
   - Например, [shamir.lv/1003](http://shamir.lv/1003) -> **1003**
   - Или [shamir.lv/en/91](http://shamir.lv/en/81) -> **91**
 
-+ Перейти по ссылке [/src/content/articles](/src/content/articles)
++ Открыть [src/content/articles](src/content/articles)
 
 + Найти файл с тем же номером (для латышской или английской версии статьи — lv или en)
   - Например, [shamir.lv/1003](http://shamir.lv/1003) -> [1003.md](/src/content/articles/1003.md)
@@ -32,7 +32,7 @@
 
 ## Добавить картинку
 
-+ Перейти по ссылке [/public/images](/public/images)
++ Открыть [public/images](public/images)
 
 + Нажать Add file справа сверху (над желтой плашкой) и Upload files
 
@@ -44,7 +44,7 @@
 
 ## Добавить статью
 
-+ Открыть [шаблон статьи](/templates/article.md) и нажать на "копировать" (2 квадратика) справа над статьей, немного левее карандаша
++ Открыть шаблон статьи [templates/article.md](templates/article.md) и нажать на "копировать" (2 квадратика) справа над статьей, немного левее карандаша
 
 + Вернуться обратно
 
